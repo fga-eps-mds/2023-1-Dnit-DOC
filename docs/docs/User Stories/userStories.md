@@ -76,6 +76,44 @@
 
 - As informações da visita devem ser armazenadas no sistema e estar disponíveis para consulta posterior.
 
+## Semana 3
+
+## **Funcionalidade:** Validação de dados da escola
+
+**User Storie:** Eu, como funcionário da escola, desejo validar os dados da minha escola, para confirmar se os dados estão corretos.
+
+## **Funcionalidade:** Listar escolas por UPS
+
+**User Storie:** Eu, como administrador do DNIT, gostaria de visualizar o ranking das escolas por UPS, para avaliar a necessidade de realizar uma ação nas escolas.
+
+## **Funcionalidade:** Lista com lugares urgentes
+
+**User Storie:** Eu, como administrador do DNIT, desejo visualizar as escolas urgentes, para saber quais escolas mais necessitam de uma ação.
+
+## Semana 4
+
+## **Funcionalidade:** Visualizar priorização de escolas
+
+**User Storie:** Eu, como Maria Tereza administrador do DNIT, gostaria de visualizar a priorização das escolas, para comparar a necessidade de realização de uma ação entre as escolas.
+
+## **Funcionalidade:** Gerar agenda baseada em escolas priorizadas
+
+**User Storie:** Eu, como diretor da sede do DNIT, gostaria de alterar as regras de priorização, para gerar agendas baseadas em diferentes prioridades.
+
+**User Storie:** Eu, como diretor da sede do DNIT, gostaria de gerar uma agenda baseada nas escolas priorizadas, para agendar as visitas de um determinado período.
+
+**User Storie:** Eu, como diretor da sede do DNIT, gostaria de informar sobre a aprovação do cronograma, para decidir sobre o envio para a unidade responsável.
+
+## **Funcionalidade:** Solicitar agendamento para a escola
+
+**User Storie:** Eu, como administrador do DNIT, gostaria de solicitar uma visita à uma escola, para notificar a escola sobre o interesse na realização de uma ação.
+
+**User Storie:** Eu, como administrador do DNIT, desejo receber um email com a decisão da escola sobre a visita, para ser notificado sobre a decisão da escola.
+
+**User Storie:** Eu, como funcionário da escola, gostaria de receber um email quando uma visita for solicitada à minha escola, para que seja notificado da necessidade de uma ação.
+
+**User Storie:** Eu, como funcionário da escola, gostaria de confirmar ou recusar a realização de uma ação na minha escola, para informar o DNIT sobre a minha decisão.
+
 Eu como usuário funcionário do dnit gostaria de verificar a agenda com horários disponíveis.
 Eu como usuário funcionário da escola gostaria de confirmar ou rejeitar uma visita.
 Eu como usuário funcionário do dnit gostaria de atualizar eventos na agenda.
