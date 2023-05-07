@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>User Stories - My Docs</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">My Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Welcome to MkDocs</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">User Stories <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active">User Stories</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../.." class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" class="nav-link disabled">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#user-stories" class="nav-link">User Stories</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#semana-1" class="nav-link">Semana 1</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#funcionalidade-cadastro" class="nav-link">Funcionalidade: Cadastro</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#funcionalidade-cadastro_1" class="nav-link">Funcionalidade: Cadastro</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#funcionalidade-importar-dados-das-escolas-de-outros-dbs" class="nav-link">Funcionalidade: Importar dados das escolas de outros DBs</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#semana-2" class="nav-link">Semana 2</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#funcionalidade-analise-de-prioridade-das-escolas" class="nav-link">Funcionalidade: Análise de prioridade das escolas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#funcionalidade-calculo-de-ups" class="nav-link">Funcionalidade: Cálculo de UPS</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#funcionalidade-formulario-de-solicitacao-para-escolas" class="nav-link">Funcionalidade: Formulário de solicitação para escolas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="user-stories">User Stories</h1>
+<h2 id="semana-1">Semana 1</h2>
+<p><strong>Funcionalidade:</strong> Login</p>
+<p><strong>User Storie:</strong> Como usuário, eu gostaria de fazer login no aplicativo para poder acessar as funcionalidades personalizadas e as informações da minha conta.</p>
+<p><strong>Critérios de aceitação:</strong>
+- A tela de login deve conter os campos de email e senha.</p>
+<ul>
+<li>
+<p>O sistema deve validar se o email e senha inseridos são válidos e correspondem a um usuário existente no sistema.</p>
+</li>
+<li>
+<p>Se o email e senha forem válidos, o sistema deve redirecionar o usuário para a página principal do sistema.</p>
+</li>
+<li>
+<p>Se o email e/ou senha forem inválidos, o sistema deve exibir uma mensagem de erro indicando que as credenciais estão incorretas.</p>
+</li>
+</ul>
+<h2 id="funcionalidade-cadastro"><strong>Funcionalidade:</strong> Cadastro</h2>
+<p><strong>User Storie:</strong> Como um usuário não registrado, eu gostaria de criar uma conta para poder acessar as funcionalidades do aplicativo.</p>
+<p><strong>Critérios de aceitação:</strong>
+- A página de cadastro deve incluir campos obrigatórios para nome de usuário, endereço de e-mail e senha; REVISITAR</p>
+<ul>
+<li>
+<p>O endereço de e-mail deve ser válido e único, não podendo ser usado por mais de uma conta;</p>
+</li>
+<li>
+<p>O usuário deve ser capaz de fazer login após o cadastro usando o nome de usuário e senha informados;</p>
+</li>
+</ul>
+<h2 id="funcionalidade-cadastro_1"><strong>Funcionalidade:</strong> Cadastro</h2>
+<p><strong>User Storie:</strong> Como um usuário não registrado, eu gostaria de criar uma conta para poder acessar as funcionalidades do aplicativo.</p>
+<p><strong>Critérios de aceitação:</strong>
+- A página de cadastro deve incluir campos obrigatórios para nome de usuário, endereço de e-mail e senha; REVISITAR</p>
+<ul>
+<li>
+<p>O endereço de e-mail deve ser válido e único, não podendo ser usado por mais de uma conta;</p>
+</li>
+<li>
+<p>O usuário deve ser capaz de fazer login após o cadastro usando o nome de usuário e senha informados;</p>
+</li>
+</ul>
+<h2 id="funcionalidade-importar-dados-das-escolas-de-outros-dbs"><strong>Funcionalidade:</strong> Importar dados das escolas de outros DBs</h2>
+<p><strong>User Storie:</strong> Eu como usuário do sistema, quero receber dados das escolas de outras bases de dados, para que eu possa me informar sobre os dados das escolas.</p>
+<p><strong>Critérios de aceitação:</strong>
+- Os dados das escolas devem vir da base de dados do INEP (mesma do Conexão DNIT)</p>
+<h1 id="semana-2">Semana 2</h1>
+<h2 id="funcionalidade-analise-de-prioridade-das-escolas"><strong>Funcionalidade:</strong> Análise de prioridade das escolas</h2>
+<p><strong>User Storie:</strong> Eu como usuário do sistema, quero que o sistema faça uma ranking das escolas de acordo com sua prioridade, para que eu possa analisar essa lista de escolas priorizadas e tomar decisões.</p>
+<p><strong>Critérios de aceitação:</strong>
+- As escolas devem ser priorizadas com base no cálculo de UPS e (mais alguma coisa que não lembro)</p>
+<ul>
+<li>A escola mais prioritária deve estar em primeiro lugar no ranking, a segunda em segundo e assim por diante.</li>
+</ul>
+<h2 id="funcionalidade-calculo-de-ups"><strong>Funcionalidade:</strong> Cálculo de UPS</h2>
+<p><strong>Observação:</strong> Talvez esse seja um Requisito Não Funcional, não penso em nenhuma user storie aqui… </p>
+<h2 id="funcionalidade-formulario-de-solicitacao-para-escolas"><strong>Funcionalidade:</strong> Formulário de solicitação para escolas</h2>
+<p><strong>User Storie:</strong> Como funcionário de uma escola, quero ser capaz de solicitar uma visita de educação de trânsito através de um formulário, para que meus alunos possam aprender sobre as leis e práticas seguras de trânsito.</p>
+<p><strong>Critérios de aceitação:</strong>
+- O formulário de solicitação deve ser acessível através de um link.</p>
+<ul>
+<li>
+<p>O formulário deve incluir campos para o nome da escola, endereço, telefone, e-mail de contato do diretor responsável e motivo da solicitação.</p>
+</li>
+<li>
+<p>O formulário deve incluir um campo para informar o número de alunos que participarão da visita.</p>
+</li>
+<li>
+<p>O formulário deve incluir um campo para informar a idade dos alunos que participarão da visita.</p>
+</li>
+<li>
+<p>Após o preenchimento do formulário, o funcionário da escola deve receber uma confirmação por e-mail de que sua solicitação foi recebida.</p>
+</li>
+<li>
+<p>A equipe responsável pela educação de trânsito deve receber uma notificação por e-mail da nova solicitação, incluindo as informações fornecidas pelo diretor.</p>
+</li>
+<li>
+<p>As informações da visita devem ser armazenadas no sistema e estar disponíveis para consulta posterior.</p>
+</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

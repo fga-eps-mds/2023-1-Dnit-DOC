@@ -1,17 +1,16 @@
-# Welcome to MkDocs
+# Dnit
+Wiki destinada ao projeto Dnit contendo a documentação relativa à disciplina de Engenharia de Produto de Software (EPS) durante o semestre de 2023-1, ministrada pelo professor Hilmer Rodrigues Neri da Universidade de Brasília - Gama.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-Oi meu chapa
-## Commands
+## Equipe
+### EPS
+|   |   |
+|----------------|------------|
+|Antônio Neto |![Antônio](../assets/antonio.jpeg)|
+|Denys Santos |![Denys](../assets/denys.jpeg)|
+|Felipe Agustini |![Fealps](../assets/fealps.jpeg)|
+|Lucas Fonseca|![Lucas]()|
+|Isadora Soares|![Isadora](../assets/isadora.jpeg)|
+|João de Matos|![Jonga](../assets/jonga.jpeg)|
+|Yan Sena|![Yan](../assets/yan.jpeg)|
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+### MDS

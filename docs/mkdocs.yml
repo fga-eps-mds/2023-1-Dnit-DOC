@@ -1,1 +1,9 @@
-site_name: My Docs
+site_name: Dumentação Dnit
+theme:
+  name: material
+  features: navigation.tabs
+  palette:
+    primary: 'indigo'
+nav:
+    - 'Home': 'index.md'
+    - 'Historias de usuário': 'User Stories\userStories.md'
