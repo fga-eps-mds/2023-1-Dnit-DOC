@@ -75,3 +75,12 @@
 - A equipe responsável pela educação de trânsito deve receber uma notificação por e-mail da nova solicitação, incluindo as informações fornecidas pelo diretor.
 
 - As informações da visita devem ser armazenadas no sistema e estar disponíveis para consulta posterior.
+
+Eu como usuário funcionário do dnit gostaria de verificar a agenda com horários disponíveis.
+Eu como usuário funcionário da escola gostaria de confirmar ou rejeitar uma visita.
+Eu como usuário funcionário do dnit gostaria de atualizar eventos na agenda.
+Eu como usuário funcionário do dnit gostaria de cadastrar eventos na agenda.
+Eu como usuário funcionário do dnit gostaria de remover eventos na agenda.
+Eu como usuário funcionário da escola gostaria de solicitar o cancelamento de uma visita e receber uma resposta.
+Eu como usuário funcionário do dnit gostaria de notificar uma escola sobre o cancelmento de uma visita.
+Eu como usuário funcionário da escola gostaria de solicitar o reagendamento de uma visita.
