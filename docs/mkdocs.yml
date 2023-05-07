@@ -5,5 +5,5 @@ theme:
   palette:
     primary: 'indigo'
 nav:
-    - 'Home': 'index.md'
-    - 'Historias de usuário': 'User Stories\userStories.md'
+    - Home: index.md
+    - Historias de usuário: User Stories\userStories.md

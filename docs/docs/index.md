@@ -3,14 +3,62 @@ Wiki destinada ao projeto Dnit contendo a documentação relativa à disciplina 
 
 ## Equipe
 ### EPS
-|   |   |
-|----------------|------------|
-|Antônio Neto |![Antônio](../assets/antonio.jpeg)|
-|Denys Santos |![Denys](../assets/denys.jpeg)|
-|Felipe Agustini |![Fealps](../assets/fealps.jpeg)|
-|Lucas Fonseca|![Lucas]()|
-|Isadora Soares|![Isadora](../assets/isadora.jpeg)|
-|João de Matos|![Jonga](../assets/jonga.jpeg)|
-|Yan Sena|![Yan](../assets/yan.jpeg)|
+
+<table style="margin-left: auto; margin-right: auto; text-align: center;">
+    <tr style="margin-left: auto; margin-right: auto; text-align: center;">
+        <td>
+            <div style="margin-left: auto; margin-right: auto; text-align: center;">
+                Antônio Neto
+                <br/>
+                <img src="assets\antonio.jpeg" alt="Foto Antônio" width="180px" height="50%" style="border-radius:50%"/>
+            </div>
+        </td>
+        <td>
+            <div style="margin-left: auto; margin-right: auto; text-align: center;">
+                Denys Santos
+            </br>
+                <img src="assets\denys.jpeg" alt="Foto Denys" width="180px" height="50%" style="border-radius:50%"/>
+            </div>
+        </td> 
+        <td>
+            <div style="margin-left: auto; margin-right: auto; text-align: center;">
+                Felipe Agustini
+            </br>
+                <img src="assets/fealps.jpeg" alt="Foto Fealps" width="180px" height="50%" style="border-radius:50%"/>
+            </div>
+        </td> 
+        <td>
+            <div style="margin-left: auto; margin-right: auto; text-align: center;">
+                Lucas Fonseca
+            </br>
+                <img  src="assets\placeholder.jpeg" alt= "Foto Lucas" width="180px" height="50%" style="border-radius:50%"/>
+            </div>
+        </td> 
+    </tr>
+    <tr>
+        <td>
+            <div style="margin-left: auto; margin-right: auto; text-align: center;">
+                Isadora Soares
+            </br>
+                <img src="assets\isadora.jpeg" alt="Foto Isadora" width="180px" height="50%" style="border-radius:50%"/>
+            </div>
+        </td> 
+        <td>
+            <div style="margin-left: auto; margin-right: auto; text-align: center;">
+                João de Matos
+            </br>
+                <img src="assets\jonga.jpeg" alt="Foto Jonga" width="180px" height="50%" style="border-radius:50%"/>
+            </div>
+        </td>
+        <td>
+            <div style="margin-left: auto; margin-right: auto; text-align: center;">
+                Yan Sena
+            </br>
+                <img src="assets\yan.jpeg" alt="Foto Yan" width="180px" height="50%" style="border-radius:50%"/>
+            </div>
+        </td> 
+    </tr>
+</table>
+
 
 ### MDS
