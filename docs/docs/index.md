@@ -37,7 +37,7 @@ Wiki destinada ao projeto Dnit contendo a documentação relativa à disciplina 
             <div style="margin-left: auto; margin-right: auto; text-align: center;">
                 Lucas Fonseca
             </br>
-                <img  src="assets\placeholder.jpeg" alt= "Foto Lucas" width="130px" height="50%" style="border-radius:50%"/>
+                <img  src="assets\lucas.jpeg" alt= "Foto Lucas" width="130px" height="50%" style="border-radius:50%"/>
             </div>
         </td> 
     </tr>
