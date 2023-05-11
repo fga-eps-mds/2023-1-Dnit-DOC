@@ -9,5 +9,6 @@ theme:
     primary: 'indigo'
 nav:
     - Home: index.md
+    - EAP: EAP\eap.md
     - Historias de usuário: User Stories\userStories.md
     - Backlog: Backlog\backlog.md
