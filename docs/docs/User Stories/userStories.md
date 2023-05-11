@@ -1,8 +1,12 @@
+---
+hide:
+  - toc
+---
 # User Stories
 
-# Requisitos Funcionais
+## Requisitos Funcionais
 
-## **Funcionalidade:** Login
+### **Funcionalidade:** Login
 
 **US01:** Como usuário, eu gostaria de fazer login no aplicativo para poder acessar as funcionalidades personalizadas e as informações da minha conta.
 
@@ -15,7 +19,7 @@
 
 - Se o email e/ou senha forem inválidos, o sistema deve exibir uma mensagem de erro indicando que as credenciais estão incorretas.
 
-## **Funcionalidade:** Cadastro
+### **Funcionalidade:** Cadastro
 
 **Us02:** Como um usuário não registrado, eu gostaria de criar uma conta para poder acessar as funcionalidades do aplicativo.
 
@@ -26,7 +30,7 @@
 
 - O usuário deve ser capaz de fazer login após o cadastro usando o nome de usuário e senha informados;
 
-## **Funcionalidade:** Importar dados das escolas de outros DBs
+### **Funcionalidade:** Importar dados das escolas de outros DBs
 
 **US03:** Eu como usuário do sistema, quero receber dados das escolas de outras bases de dados, para que eu possa me informar sobre os dados das escolas.
 
@@ -35,7 +39,7 @@
 
 - O acesso aos dados da escola seria apenas para o usuário do DNIT
 
-## **Funcionalidade:** Análise de prioridade das escolas
+### **Funcionalidade:** Análise de prioridade das escolas
 
 **US04:** Eu como administrador DNIT, quero que o sistema faça uma ranking das escolas de acordo com sua prioridade, para avaliar a necessidade de realizar uma ação nas escolas.
 
@@ -48,7 +52,7 @@
 
 - Deve haver opções de filtros (por local, por quantidade de escolas na lista)
 
-## **Funcionalidade:** Formulário de solicitação para escolas
+### **Funcionalidade:** Formulário de solicitação para escolas
 
 **US05:** Como funcionário de uma escola, quero ser capaz de solicitar uma visita de educação de trânsito através de um formulário, para que meus alunos possam aprender sobre as leis e práticas seguras de trânsito.
 
@@ -67,7 +71,7 @@
 
 - As informações da visita devem ser armazenadas no sistema e estar disponíveis para consulta posterior.
 
-## **Funcionalidade:** Validação de dados da escola
+### **Funcionalidade:** Validação de dados da escola
 
 **US06:** Eu, como funcionário da escola, desejo validar os dados da minha escola, para confirmar se os dados estão corretos antes de enviar o formulário de solicitação de visita.
 
@@ -77,7 +81,7 @@
 
 - Deve haver um botão para confirmar e enviar o formulário
 
-## **Funcionalidade:** Gerar agenda baseada em escolas priorizadas
+### **Funcionalidade:** Gerar agenda baseada em escolas priorizadas
 
 **US07:** Eu, como diretor da sede do DNIT, gostaria de alterar as regras de priorização, para gerar agendas baseadas em diferentes prioridades.
 
@@ -107,7 +111,7 @@
 
 - Essa funcionalidade deve estar disponível apenas para o funcionário da SEDE do DNIT
 
-## **Funcionalidade:** Solicitar agendamento para a escola
+### **Funcionalidade:** Solicitar agendamento para a escola
 
 **US10:** Eu, como administrador do DNIT, gostaria de solicitar uma visita à uma escola, para notificar a escola sobre o interesse na realização de uma ação.
 
@@ -150,7 +154,7 @@
 
 - O sistema deve enviar automaticamente um email para o DNIT com a decisão da escola, incluindo o motivo da recusa, se aplicável
 
-## Funcionalidade: Verificação de Agenda DNIT
+### Funcionalidade: Verificação de Agenda DNIT
  
 **US14:** Eu como usuário funcionário do DNIT gostaria de verificar a agenda do DNIT com horários disponíveis, para saber quando terei disponibilidade para realizar as ações.
 
@@ -204,6 +208,6 @@
 
 - Ao ser solicitado o reagendamento, o sistema envia um email indicando que a solicitação foi recebida
 
-# Requisitos não funcionais:
+## Requisitos não funcionais:
 
-## **Funcionalidade:** Cálculo de UPS
+### **Funcionalidade:** Cálculo de UPS

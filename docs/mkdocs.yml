@@ -1,9 +1,13 @@
-site_name: Dumentação Dnit
+site_name: Documentação Dnit
 theme:
   name: material
-  features: navigation.tabs
+  features: 
+  - navigation.tabs
+  - navigation.tabs.sticky
+  
   palette:
     primary: 'indigo'
 nav:
     - Home: index.md
     - Historias de usuário: User Stories\userStories.md
+    - Backlog: Backlog\backlog.md
