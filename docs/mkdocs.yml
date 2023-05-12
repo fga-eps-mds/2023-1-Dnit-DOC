@@ -9,7 +9,11 @@ theme:
     primary: 'indigo'
 nav:
     - Home: index.md
+    - Historias de usuário: User Stories/userStories.md
+    - Backlog: Backlog/backlog.md
+    - Protótipo: Prototipo/prototipo.md
     - EAP: EAP\eap.md
     - Visão do Produto: visaodoproduto.md
     - Historias de usuário: User Stories\userStories.md
     #- Backlog: Backlog\backlog.md
+
