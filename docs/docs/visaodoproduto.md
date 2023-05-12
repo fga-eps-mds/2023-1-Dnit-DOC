@@ -8,7 +8,7 @@ hide:
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
 |1.0| - | Criação do documento | Equipe de EPS |
-|1.0| 07/05/2023 | Adição do documento a wiki | Felipe Agustini |
+|1.0| 12/05/2023 | Adição do documento a wiki | Felipe Agustini |
 
 ## Introdução
 Visão do produto é uma declaração concisa que descreve a direção estratégica de um produto, incluindo sua finalidade, funcionalidades e objetivo de negócio, e é usada como um guia para todas as decisões relacionadas ao produto.
