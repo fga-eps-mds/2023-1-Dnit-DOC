@@ -3,6 +3,10 @@ hide:
   - toc
 ---
 # User Stories
+## Versionamento
+| Versão | Data | Modificação | Autor |
+|--|--|--|--|
+|1.0| 07/05/2023 | Criação do documento | Equipe de EPS |
 
 ## Requisitos Funcionais
 
