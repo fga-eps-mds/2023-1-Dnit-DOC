@@ -5,7 +5,9 @@
 |--|--|--|--| 
 |1.0| 11/05/2023 | Criação da branch protótipo e adição dos protótipos de média fidelidade | Artur Rodrigues e Guilherme Soares | 
 |1.1| 12/05/2023 | Atualização da branch | Artur Rodrigues |
-|2.0| 13/05/2023 | Adicionado o protótipo de alta fidelidade da tela de cadastro | Artur Rodrigues |
+|2.0| 12/05/2023 | Criado o protótipo de alta fidelidade da tela de login | Pedro Braga e Yan Lucca |
+|2.1| 12/05/2023 | Criado o protótipo de alta fidelidade da tela de cadastro | Artur Rodrigues |
+|2.2| 13/05/2023 | Adicionado o protótipo de alta fidelidade da tela de cadastro e login| Artur Rodrigues e Pedro Braga |
 
 ## Protótipos de Média Fidelidade
 
