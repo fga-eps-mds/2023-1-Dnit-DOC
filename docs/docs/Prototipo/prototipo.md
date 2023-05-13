@@ -5,6 +5,7 @@
 |--|--|--|--| 
 |1.0| 11/05/2023 | Criação da branch protótipo e adição dos protótipos de média fidelidade | Artur Rodrigues e Guilherme Soares | 
 |1.1| 12/05/2023 | Atualização da branch | Artur Rodrigues |
+|2.0| 13/05/2023 | Adicionado o protótipo de alta fidelidade da tela de cadastro | Artur Rodrigues |
 
 ## Protótipos de Média Fidelidade
 
@@ -32,3 +33,9 @@ Protótipos de alta fidelidade em desenvolvimento de software são modelos inter
 Tela de Login
 
 ![Protótipo de Alta Fidelidade - Login](../assets/prototipoDeAltaLogin.png "alt")
+
+<br/>
+
+Tela de Cadastro
+
+![Protótipo de Alta Fidelidade - Cadastro](../assets/prototipoDeAltaCadastro.png "alt")
