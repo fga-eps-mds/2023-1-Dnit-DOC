@@ -23,7 +23,8 @@ A criação de novas issues deverá ser realizada através do projects disponibi
 
 - [Documentação] : Dedicada para adicionar uma documentação nova no repositório de documentação; 
 - [US] : Dedicada para desenvolver uma funcionalidade de uma User Story;
-- [Bug] : Dedicada para correção de Bugs
+- [Bug] : Dedicada para correção de Bugs;
+- [Hotfix]: Dedicada para solucionar um bug com grande urgência.
 
 ## Políticas de commits
 
@@ -42,5 +43,11 @@ Os commits deverão seguir as seguintes regras:
 Exemplo: Issue 1: [US-01] Cadastrar Usuário 
 
 ```
-git commit -m "Desevolvendo tela de login do cadastro de usuário #1"
+git commit -m " #1 Desevolvendo tela de login do cadastro de usuário"
 ```
+
+### Histórico de versão
+
+|**Data**|**Descrição**|**Autor(es)**|
+|--------|-------------|--------------|
+|12/05/2023| Criação do Guia de Contribuição | Yan Andrade |
