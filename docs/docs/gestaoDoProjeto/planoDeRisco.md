@@ -5,10 +5,11 @@
 |--|--|--|--|
 |1.0| 12/05/2023 | Criação do documento | Lucas Rodrigues |
 |1.1| 13/05/2023 | Levantamento dos riscos | Lucas Rodrigues |
+|1.2| 14/05/2023 | Adição da planilha de monitoramento | Lucas Rodrigues |
 
 ## Introdução
 
-Os riscos de um projeto podem comprometer o seu planejamento, cronograma e custo, podendo estar relacionados a diversos fatores, como custo, tempo, pessoas, recursos, clientes, requisitos, entre outros. Com o objetivo de identificar, analisar, monitorar e controlar esses riscos, foi elaborado este plano de gestão de riscos.
+Os riscos de um projeto podem comprometer o seu planejamento, cronograma e custo, podendo estar relacionados a diversos fatores, como custo, tempo, pessoas, recursos, clientes, requisitos, entre outros. Com o objetivo de identificar, analisar e monitorar esses riscos, foi elaborado este plano de gestão de riscos.
 
 ### Tipos de risco
 
@@ -61,6 +62,8 @@ Para a classificação dos riscos, foram consideradas as seguintes categorias:
 
 ## Levantamento de riscos
 
+### Tabela de Riscos
+
 | Risco | Descrição | Categoria |
 | :---: | :---: | :---: |
 | R01 | Dificuldade com as tecnologias definidas | Técnico |
@@ -80,6 +83,8 @@ Para a classificação dos riscos, foram consideradas as seguintes categorias:
 | R15 | Membro da equipe sobrecarregado | Gerencial |
 | R16 | Falha de equipamento | Externo |
 | R17 | Dependência entre atividades | Organizacional |
+
+### Causa e Consequência dos Riscos
 
 | Risco | Causa | Consequência |
 | :---: | :---: | :---: |
@@ -101,6 +106,8 @@ Para a classificação dos riscos, foram consideradas as seguintes categorias:
 | R16 | Desgaste natural e falta de manutenção | Aumento dos custos e atraso nas entregas |
 | R17 | Falta de coordenação entre as atividades do projeto | Bloqueio no progresso de outras atividades |
 
+### Prevenção e Ação para os Riscos
+
 | Risco | Prevenção | Ação |
 | :---: | :---: | :---: |
 | R01 | Realização de treinamentos | Programação em pares para compartilhar o conhecimento |
@@ -120,6 +127,12 @@ Para a classificação dos riscos, foram consideradas as seguintes categorias:
 | R15 | Divisão equivalente das tarefas entre os integrantes | Reavaliar a distribuição das tarefas |
 | R16 | Realizar manutenção periódica do equipamento | Providenciar conserto ou comprar novo equipamento |
 | R17 | Elaborar priorização correta das atividades | Rever priorização das atividades |
+
+## Monitoramento dos Riscos
+
+O acompanhamento dos riscos é essencial durante o desenvolvimento de um projeto de software, uma vez que os riscos não são estáticos e podem mudar de nível ao longo do projeto. Para realizar esse monitoramento foi criada uma planilha para inserir a pontuação dos riscos para cada sprint.
+
+<iframe width="700" height="760" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7s4UVvElF9pbC0jY9eKn7TW12wMgu5M2DUDaDbEdFctoYtkifFFyWUZYgIdYbDZwvNpdKdahqzvyk/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 ## Referências
 
