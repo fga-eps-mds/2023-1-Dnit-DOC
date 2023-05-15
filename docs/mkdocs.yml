@@ -1,21 +1,21 @@
 site_name: Documentação Dnit
 theme:
   name: material
-  features: 
-  - navigation.tabs
-  - navigation.tabs.sticky
-  
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+
   palette:
-    primary: 'indigo'
+    primary: "indigo"
 nav:
-    - Home: index.md
-    - Historias de usuário: User Stories/userStories.md
-    - Backlog: Backlog/backlog.md
-    - Protótipo: Prototipo/prototipo.md
-    - EAP: EAP/eap.md
-    - Visão do Produto: visaodoproduto.md
-    - Historias de usuário: User Stories\userStories.md
-    - Plano de Riscos: gestaoDoProjeto/planoDeRisco.md
+  - Home: index.md
+  - Historias de usuário: User Stories/userStories.md
+  - Backlog: Backlog/backlog.md
+  - Protótipo: Prototipo/prototipo.md
+  - EAP: EAP/eap.md
+  - Visão do Produto: visaodoproduto.md
+  - Historias de usuário: User Stories\userStories.md
+  - Plano de Riscos: gestaoDoProjeto/planoDeRisco.md
+  - Código de Conduta: codigoConduta/codConduta.md
 
-    #- Backlog: Backlog\backlog.md
-
+  #- Backlog: Backlog\backlog.md
