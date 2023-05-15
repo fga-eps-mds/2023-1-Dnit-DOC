@@ -10,16 +10,16 @@
 <!-- Adicione imagens que demonstrem  a modificação em funcionamento -->
 ## Tipo de alterações
 <!-- Quais tipos de alterações foram feitas -->
-- [] _correção_ _de_ _bug_
-- [] Nova _feature_
-- [] ...
+- [ ] _correção_ _de_ _bug_
+- [ ] Nova _feature_
+- [ ] ...
 
 ## Lista de controle:
 
-- [] Atribui este pull request ao projeto
-- [] Meu código segue a folha de estilos implementada
-- [] Meus _commits_ seguem a política de commits do projeto.
-- [] Minhas alterações requerem modificações na documentação atual.
-- [] Atualizei a Documentação
-- [] Adicionei testes para cobrir minhas alterações.
-- [] Todos os testes foram aprovados.
+- [ ] Atribui este pull request ao projeto
+- [ ] Meu código segue a folha de estilos implementada
+- [ ] Meus _commits_ seguem a política de commits do projeto.
+- [ ] Minhas alterações requerem modificações na documentação atual.
+- [ ] Atualizei a Documentação
+- [ ] Adicionei testes para cobrir minhas alterações.
+- [ ] Todos os testes foram aprovados.
