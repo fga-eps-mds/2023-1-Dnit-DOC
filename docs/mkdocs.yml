@@ -15,6 +15,7 @@ nav:
   - EAP: EAP/eap.md
   - Visão do Produto: visaodoproduto.md
   - Historias de usuário: User Stories\userStories.md
+  - Modelagem de Dados: modelagemDados/modelagemDeDados.md
   - Plano de Riscos: gestaoDoProjeto/planoDeRisco.md
   - Código de Conduta: codigoConduta/codConduta.md
 
