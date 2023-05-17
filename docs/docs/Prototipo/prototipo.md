@@ -35,6 +35,4 @@ Protótipos de alta fidelidade em desenvolvimento de software são modelos inter
 
 Tela de Login e de Cadastro
 
-<br/>
-
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FzyNXXEdSgbYnXQorSQPRgA%2FProt%25C3%25B3tipos-de-Alta-Fidelidade---DNIT%3Ftype%3Ddesign%26node-id%3D0%253A1%26t%3DdaJ4rAnQhQU3aqFi-1" allowfullscreen></iframe>
