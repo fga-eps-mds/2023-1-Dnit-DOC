@@ -8,6 +8,7 @@
 |2.0| 12/05/2023 | Criado o protótipo de alta fidelidade da tela de login | Pedro Braga e Yan Lucca |
 |2.1| 12/05/2023 | Criado o protótipo de alta fidelidade da tela de cadastro | Artur Rodrigues |
 |2.2| 13/05/2023 | Adicionado o protótipo de alta fidelidade da tela de cadastro e login| Artur Rodrigues e Pedro Braga |
+|3.0| 16/05/2023 | Alterado e melhorado o protótipo de alta fidelidade da tela de cadastro e login| Artur Rodrigues e Letícia Resende|
 
 ## Protótipos de Média Fidelidade
 
