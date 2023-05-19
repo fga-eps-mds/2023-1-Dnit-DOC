@@ -6,12 +6,10 @@ hide:
 
 # Identidade Visual
 
-
 ## Introdução
 
 Abaixo se encontra o Manual de Gestão de Marca do DNIT, fornecido pelo mesmo em 11/05/2023.
 Este manual descreve a identidade visual que deve ser seguida na construção deste projeto.  
-
 
 
 ## Manual
@@ -43,8 +41,9 @@ Este manual descreve a identidade visual que deve ser seguida na construção de
 
 
 
+
 ## Histórico de versionamento
 
-| **Data**   | **Descrição**                                                               | **Autor(es)**         |
-| ---------- | --------------------------------------------------------------------------- | --------------------- |
+| **Data**   | **Descrição**                                                                 | **Autor(es)**         |
+| ---------- | ----------------------------------------------------------------------------- | --------------------- |
 | 18/05/2023 | Criação da pagina e adição do manual de identidade visual fornecido pelo DNIT | João Gabriel de Matos |
