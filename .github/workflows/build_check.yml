@@ -16,5 +16,4 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs
-      - run: cd docs
-      - run: mkdocs build -v -s -c
+      - run: cd docs && mkdocs build -v -s
