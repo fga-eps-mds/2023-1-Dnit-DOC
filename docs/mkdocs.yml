@@ -15,8 +15,9 @@ nav:
   - EAP: EAP/eap.md
   - Visão do Produto: visaodoproduto.md
   - Identidade visual: identidadeVisual/identidadeVisual.md
-  - Historias de usuário: User Stories\userStories.md
+  - Historias de usuário: User Stories/userStories.md
   - Plano de Riscos: gestaoDoProjeto/planoDeRisco.md
   - Código de Conduta: codigoConduta/codConduta.md
+  - Estorias de usuario: GuiaDeContribuicao/guiaDeContribuicao.md
 
   #- Backlog: Backlog\backlog.md
