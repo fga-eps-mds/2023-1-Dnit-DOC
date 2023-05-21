@@ -4,7 +4,7 @@
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
 |1.0| 17/05/2023 | Criação do documento | Lucas Rodrigues |
-|1.1| 21/05/2023 | Adição da planilha | Lucas Rodrigues |
+|1.1| 21/05/2023 | Adição da planilha e gráficos | Lucas Rodrigues |
 
 ## Custos
 
@@ -72,6 +72,16 @@ Após as 17 semanas de projeto, considerando também o custo dos equipamentos qu
 Para o acompanhamento semanal dos custos foi elaborada uma planilha com os custos para cada integrante da equipe.
 
 <iframe width="700" height="760" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTQ3XIv1v2EBdayBSA4VwpuQOkRhqapJTFqbErDA3onQzFAg-Zs7IgGXMPqdkBsVwkWT2ojag1812eg/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
+## Gráficos
+
+Foi elaborado um gráfico para visualizar a proporção dos custos totais esperados ao final do projeto para cada categoria.
+
+<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTQ3XIv1v2EBdayBSA4VwpuQOkRhqapJTFqbErDA3onQzFAg-Zs7IgGXMPqdkBsVwkWT2ojag1812eg/pubchart?oid=1810580293&amp;format=interactive"></iframe>
+
+Além disso, o gráfico abaixo mostra as custos a cada semana de projeto.
+
+<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTQ3XIv1v2EBdayBSA4VwpuQOkRhqapJTFqbErDA3onQzFAg-Zs7IgGXMPqdkBsVwkWT2ojag1812eg/pubchart?oid=865556181&amp;format=interactive"></iframe>
 
 ## Referências
 
