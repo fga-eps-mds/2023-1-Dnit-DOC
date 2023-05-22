@@ -24,9 +24,11 @@ Na segunda versão separamos o funcionário DNIT e funcionário Terceirizada em 
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F5YYpopoJUVvyEG1mwS48Pk%2FDER-2%3Ftype%3Ddesign%26node-id%3D3%253A333%26t%3DMSvBIhVRs7KWjrBj-1" allowfullscreen></iframe>
 
-## DER 3
+## DER 3 (Atual)
 
 Na terceira versão, fazemos um especialização para o funcinário DNIT e funcionário Terceirizada. Criamos a generalização "Funcionário" que vai conter os atributos em comum, e as especializações com os atributos específicos.
+Em discussão com a equipe, concluimos que esta especialização é a melhor forma de lidar com as diferenças de dados fornecidos para os dois tipos de usuario, mantendo suas atibuições em comum.
+Este DER representa a versão mais recente.
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FJmNx2j4hrJsPu9zupsnamS%2FDER-3%3Ftype%3Ddesign%26node-id%3D0%253A1%26t%3DXE0Uet0nRxAAoySH-1" allowfullscreen></iframe>
 
