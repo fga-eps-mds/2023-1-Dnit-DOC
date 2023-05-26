@@ -16,6 +16,7 @@ nav:
   - Visão do Produto: visaodoproduto.md
   - Identidade visual: identidadeVisual/identidadeVisual.md
   - Historias de usuário: User Stories/userStories.md
+  - Documento de arquitetura: projeto/arquitetura.md
   - Modelagem de Dados: modelagemDados/modelagemDeDados.md
   - Plano de Riscos: gestaoDoProjeto/planoDeRisco.md
   - Código de Conduta: codigoConduta/codConduta.md
