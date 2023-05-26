@@ -1,8 +1,3 @@
-| Versão | Data   | Modificação                                                            | Autor        |
-| -- | ---------- | ----------------------------------------------------------------------------- | --------------------- |
-| 1.0 | 26/05/2023 | Criação do documento | Antônio Neto |
-| 1.1 | 04/06/2023 | Revisão do documento e adicionando versionamento | Yan Andrade de Sena |
-
 # Sprint 2
 
 Período: 22/05/2023 a 26/05/2023
@@ -14,8 +9,10 @@ Em relação a **US01** e a **US04**, ficou pendentes os seguintes pontos que en
 - Tratamento de erros no Back-end - Yan Andrade
 - Tratamento de erros no Front-end - Felipe e Antonio
 - Integração do Front-end com o Back-end - Isadora e Jonga
-- Ajustar alguns pontos na tela de cadastro para ficar de acordo com o protótipo - Artur, Pedro e Antonio
+- Ajustar alguns pontos na tela de cadastro par
+a ficar de acordo com o protótipo - Artur, Pedro e Antonio
 - Testes unitários e de integração - Denys, Lucas e Isadora
+<<<<<<< HEAD
 - Criptografia de senha - Denys e Lucas
 
 

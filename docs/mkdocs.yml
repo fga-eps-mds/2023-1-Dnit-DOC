@@ -42,6 +42,6 @@ nav:
     - Código de Conduta: codigoConduta/codConduta.md
   
   - Estorias de usuario: GuiaDeContribuicao/guiaDeContribuicao.md
-  # - Sprints: Sprints/Sprint_1.md
+  - Modelagem de Dados: modelagemDados/modelagemDeDados.md
 
   #- Backlog: Backlog\backlog.md
