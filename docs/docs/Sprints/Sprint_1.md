@@ -1,8 +1,6 @@
 # Sprint 1
 
-Data de início: 15/05/2023
-
-Data de fim: 21/05/2023
+Período: 15/05/2023 a 21/05/2023
 
 # Planning
 
@@ -19,7 +17,6 @@ Critérios de aceitação:
 - O sistema deve ter uma página de cadastro que permita ao usuário inserir informações pessoais como nome, endereço de e-mail, UF da lotação e senha.
 - O sistema deve validar o endereço de e-mail para verificar se está em um formato válido.
 - O sistema deve fornecer feedback claro e preciso caso o cadastro não possa ser concluído devido a algum erro ou informação incorreta fornecida pelo usuário.
-- O sistema deve validar a senha e realizar a encriptografia
 
 | Tarefa | _Definition of Done_ | Responsáveis |
 |--|--|--|
@@ -97,3 +94,9 @@ Além disso, vale ressaltar algumas atividades que já haviam sido feitas antes 
 A retrospectiva da Sprint 1 foi feita através de uma planilha compartilhada por todos os integrantes, na qual colocava-se os pontos positivos, negativos e pontos a melhorar em relação a Sprint em questão.
 
 <iframe  width="700" height="450" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRQEnsKWDXz5-JGMax2e1ARVivZXLXWykd5tLpDkFRChHly0l5dTAL8zTBqBe2QQuXhi7bCs6z4zii6/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
+Os pontos a serem priorizados para melhorarmos na próxima sprint são:
+
+- Fazer pausa de 10 minutos após 1hora de reunião
+- Fazer uma daily presencial por semana
+- Avisar pelo telegram quando alguém enviar mensagem pelo discord

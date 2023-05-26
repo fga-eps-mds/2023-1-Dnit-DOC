@@ -17,6 +17,8 @@ nav:
   - Historias de usuário: User Stories\userStories.md
   - Plano de Riscos: gestaoDoProjeto/planoDeRisco.md
   - Código de Conduta: codigoConduta/codConduta.md
-  - Sprints: Sprints/Sprint_1.md
+  - Sprints:
+    - Sprint 1: Sprints/Sprint_1.md
+    - Sprint 2: Sprints/Sprint_2.md
 
   #- Backlog: Backlog\backlog.md
