@@ -17,6 +17,7 @@ Critérios de aceitação:
 - O sistema deve ter uma página de cadastro que permita ao usuário inserir informações pessoais como nome, endereço de e-mail, UF da lotação e senha.
 - O sistema deve validar o endereço de e-mail para verificar se está em um formato válido.
 - O sistema deve fornecer feedback claro e preciso caso o cadastro não possa ser concluído devido a algum erro ou informação incorreta fornecida pelo usuário.
+- O sistema deve validar a senha e realizar a encriptografia
 
 | Tarefa | _Definition of Done_ | Responsáveis |
 |--|--|--|
@@ -24,6 +25,7 @@ Critérios de aceitação:
 | Implementação da tela de Cadastro (Front-end) | 1 - Estar condizendo com protótipo de alta fidelidade, 2 - Print da tela funcionando no PR | Miguel e Artur |
 | Testes | 1 - Print dos testes passando no PR | Leticia e Guilherme |
 | Banco de dados | 1 - Print das tabelas criadas | Denys |
+| Criptografia de senha | 1 - Print da criptografia de senha | Denys e Lucas |
 
 ### User Storie 4
 Critérios de aceitação:
@@ -67,6 +69,7 @@ Além disso, vale ressaltar algumas atividades que já haviam sido feitas antes 
 | Implementação da tela de Cadastro (Front-end) | Feito |
 | Testes | Não feito |
 | Banco de dados | Feito |
+| Criptografia de senha | Não feito |
 
 ### User Storie 4
 

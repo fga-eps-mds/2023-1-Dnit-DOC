@@ -11,6 +11,7 @@ Em relação a **US01** e a **US04**, ficou pendentes os seguintes pontos que en
 - Integração do Front-end com o Back-end - Isadora e Jonga
 - Ajustar alguns pontos na tela de cadastro para ficar de acordo com o protótipo - Artur, Pedro e Antonio
 - Testes unitários e de integração - Denys, Lucas e Isadora
+- Criptografia de senha - Denys e Lucas
 
 Sobre as outras atividades, tivemos os seguintes débitos técnicos:
 
@@ -38,6 +39,7 @@ Critérios de aceitação:
 - O sistema deve ter uma página de cadastro que permita ao usuário inserir informações pessoais como nome, empresa, endereço de e-mail e senha.
 - O sistema deve validar o endereço de e-mail para verificar se está em um formato válido.
 - O sistema deve fornecer feedback claro e preciso caso o cadastro não possa ser concluído devido a algum erro ou informação incorreta fornecida pelo usuário.
+- O sistema deve validar a senha e realizar a encriptografia
 
 | Tarefa | _Definition of Done_ | Responsáveis |
 |--|--|--|
@@ -45,6 +47,7 @@ Critérios de aceitação:
 | Tela de cadastro de func. terceirizada (Front-end) | 1 - Deve estar de acordo com o protótipo de alta fidelidade | Miguel, Yan e Isadora |
 |Implementação de Cadastro de func. de empresa terceirizada (Back-end) | 1 - Validação dos dados recebidos, 2 - Print do Swagger com endpoint | Ricardo, Pedro e Denys |
 | Criação de tabelas no banco de dados | 1-Criação tabela no banco da dados para func. terceirizada, 2-Tabela de empresa no banco de dados e 3-Criação da tabela de relacionamento func-empresa | Carol, Leticia e João Gabriel |
+| Criptografia de senha | 1 - Print da criptografia de senha | Denys e Lucas |
 
 ### User Storie 5
 
@@ -74,6 +77,7 @@ Critérios de aceitação:
 | Tela de cadastro de func. terceirizada (Front-end) | Feito |
 | Implementação de Cadastro de func. de empresa terceirizada (Back-end) | Feito |
 | Criação de tabelas no banco de dados | Feito |
+| Criptografia de senha | Feito |
 
 ### User Storie 5
 
