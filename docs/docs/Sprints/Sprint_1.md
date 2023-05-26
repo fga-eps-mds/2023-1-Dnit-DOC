@@ -6,7 +6,7 @@ Data de fim: 21/05/2023
 
 # Planning
 
-## Backlog
+## Backlog da Sprint
 
 |Nº da US| User Storie |
 |---|---|
@@ -15,6 +15,7 @@ Data de fim: 21/05/2023
 
 ### User Storie 1
 Critérios de aceitação:
+
 - O sistema deve ter uma página de cadastro que permita ao usuário inserir informações pessoais como nome, endereço de e-mail, UF da lotação e senha.
 - O sistema deve validar o endereço de e-mail para verificar se está em um formato válido.
 - O sistema deve fornecer feedback claro e preciso caso o cadastro não possa ser concluído devido a algum erro ou informação incorreta fornecida pelo usuário.
@@ -29,6 +30,7 @@ Critérios de aceitação:
 
 ### User Storie 4
 Critérios de aceitação:
+
 - O sistema deve ter uma tela de login que permita ao funcionário inserir suas credenciais de acesso (como email e senha) para autenticação.
 - Após a autenticação bem-sucedida, o funcionário deve ser redirecionado para a página inicial do sistema, onde pode acessar todas as funcionalidades disponíveis de acordo com o seu perfil de acesso.
 - Se as credenciais de login inseridas forem inválidas, o sistema deve exibir uma mensagem de erro indicando que as credenciais são inválidas.
@@ -42,6 +44,7 @@ Critérios de aceitação:
 ### Outras tarefas
 
 Definimos algumas outras atividades, além das User Stories, para a Sprint 1:
+
 - Documentação da identidade visual: EPS
 - Roadmap: EPS
 - Modelagem de dados (DER e MER): Antônio e João Gabriel
@@ -52,6 +55,7 @@ Definimos algumas outras atividades, além das User Stories, para a Sprint 1:
 - Criação de pipeline do Sonarcloud: Yan Andrade e Isadora
 
 Além disso, vale ressaltar algumas atividades que já haviam sido feitas antes do início da Sprint 1:
+
 - Protótipos de média e alta fidelidade da US01 e US04, e validação com o cliente.
 - Definição das tecnologias e arquitetura do projeto.
 - Criação de repositórios de documentação, Front-end e Back-end.
@@ -92,4 +96,4 @@ Além disso, vale ressaltar algumas atividades que já haviam sido feitas antes 
 
 A retrospectiva da Sprint 1 foi feita através de uma planilha compartilhada por todos os integrantes, na qual colocava-se os pontos positivos, negativos e pontos a melhorar em relação a Sprint em questão.
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRQEnsKWDXz5-JGMax2e1ARVivZXLXWykd5tLpDkFRChHly0l5dTAL8zTBqBe2QQuXhi7bCs6z4zii6/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe  width="700" height="450" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRQEnsKWDXz5-JGMax2e1ARVivZXLXWykd5tLpDkFRChHly0l5dTAL8zTBqBe2QQuXhi7bCs6z4zii6/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
