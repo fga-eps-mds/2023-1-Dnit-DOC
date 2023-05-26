@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Sprint 2
 
 Período: 22/05/2023 a 26/05/2023
@@ -12,7 +11,9 @@ Em relação a **US01** e a **US04**, ficou pendentes os seguintes pontos que en
 - Integração do Front-end com o Back-end - Isadora e Jonga
 - Ajustar alguns pontos na tela de cadastro para ficar de acordo com o protótipo - Artur, Pedro e Antonio
 - Testes unitários e de integração - Denys, Lucas e Isadora
+<<<<<<< HEAD
 - Criptografia de senha - Denys e Lucas
+
 
 Sobre as outras atividades, tivemos os seguintes débitos técnicos:
 
@@ -41,6 +42,7 @@ Critérios de aceitação:
 - O sistema deve validar o endereço de e-mail para verificar se está em um formato válido.
 - O sistema deve fornecer feedback claro e preciso caso o cadastro não possa ser concluído devido a algum erro ou informação incorreta fornecida pelo usuário.
 - O sistema deve validar a senha e realizar a encriptografia
+
 
 | Tarefa | _Definition of Done_ | Responsáveis |
 |--|--|--|
@@ -94,4 +96,4 @@ Critérios de aceitação:
 A retrospectiva da Sprint 2 foi feita através de uma planilha compartilhada por todos os integrantes, na qual colocava-se os pontos positivos, negativos e pontos a melhorar em relação a Sprint em questão. Também foram colocados os pontos que conseguimos melhorara a partir da Sprint passada.
 
 <iframe width="700" height="450" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRQEnsKWDXz5-JGMax2e1ARVivZXLXWykd5tLpDkFRChHly0l5dTAL8zTBqBe2QQuXhi7bCs6z4zii6/pubhtml?gid=718670246&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-=======
+

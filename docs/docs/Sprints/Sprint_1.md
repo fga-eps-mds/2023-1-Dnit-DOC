@@ -17,7 +17,6 @@ Critérios de aceitação:
 - O sistema deve ter uma página de cadastro que permita ao usuário inserir informações pessoais como nome, endereço de e-mail, UF da lotação e senha.
 - O sistema deve validar o endereço de e-mail para verificar se está em um formato válido.
 - O sistema deve fornecer feedback claro e preciso caso o cadastro não possa ser concluído devido a algum erro ou informação incorreta fornecida pelo usuário.
-- O sistema deve validar a senha e realizar a encriptografia
 
 | Tarefa | _Definition of Done_ | Responsáveis |
 |--|--|--|
