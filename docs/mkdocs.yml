@@ -17,6 +17,7 @@ nav:
   - Custo e Risco:
     - Plano de Riscos: gestaoDoProjeto/planoDeRisco.md
     - Plano de Custos: gestaoDoProjeto/planoDeCusto.md
+    - Gráfico de Gantt: gestaoDoProjeto/graficoGantt.md
   - Identidade visual: identidadeVisual/identidadeVisual.md
   - Código de Conduta: codigoConduta/codConduta.md
   - Estorias de usuario: GuiaDeContribuicao/guiaDeContribuicao.md
