@@ -14,11 +14,12 @@ nav:
   - Protótipo: Prototipo/prototipo.md
   - EAP: EAP/eap.md
   - Visão do Produto: visaodoproduto.md
+  - Custo e Risco:
+    - Plano de Riscos: gestaoDoProjeto/planoDeRisco.md
+    - Plano de Custos: gestaoDoProjeto/planoDeCusto.md
   - Identidade visual: identidadeVisual/identidadeVisual.md
-  - Historias de usuário: User Stories/userStories.md
   - Documento de arquitetura: projeto/arquitetura.md
   - Modelagem de Dados: modelagemDados/modelagemDeDados.md
-  - Plano de Riscos: gestaoDoProjeto/planoDeRisco.md
   - Código de Conduta: codigoConduta/codConduta.md
   - Estorias de usuario: GuiaDeContribuicao/guiaDeContribuicao.md
 
