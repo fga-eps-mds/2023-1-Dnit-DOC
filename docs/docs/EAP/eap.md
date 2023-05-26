@@ -1,8 +1,5 @@
 # Estrutura Analítica do Projeto - EAP
-## Versionamento
-| Versão | Data | Modificação | Autor |
-|--|--|--|--|
-|1.0| 12/05/2023 | Criação do documento | Antônio Neto |
+
 ## O que é a EAP?
 A Estrutura Analítica do Projeto (EAP) é uma ferramenta utilizada para decompor um projeto em partes menores, mais gerenciáveis e facilmente compreensíveis. Segundo o autor Ricardo Vargas, em seu livro "Gerenciamento de Projetos: Estabelecendo Diferenciais Competitivos", a EAP é uma técnica de decomposição hierárquica, na qual o projeto é dividido em componentes menores e, em seguida, cada componente é dividido em partes ainda menores até que seja alcançado um nível gerenciável.
 
@@ -12,6 +9,12 @@ A EAP é usada para estabelecer uma estrutura lógica e organizada que ajuda na 
 ## EAP - Projeto DNIT
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FL8soB7KXLzrHJfdXUMImpH%2FWork-Breakdown-Structure-(Copy)%3Ftype%3Dwhiteboard%26node-id%3D0%253A1%26t%3DETiIaiUVVrn4UJvm-1" allowfullscreen></iframe>
+
+## Versionamento
+| Versão | Data | Modificação | Autor |
+|--|--|--|--|
+|1.0| 12/05/2023 | Criação do documento | Antônio Neto |
+|2.0| 24/05/2023 | Ajustes no EAP | Antônio Neto e Isadora |
 
 ## Referências
 
