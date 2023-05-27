@@ -22,6 +22,7 @@ nav:
 
   - Gestão do projeto:
     - Quadros de pareamento: gestaoDoProjeto/quadroPareamento.md
+    - Quadro de conhecimentos: gestaoDoProjeto/quadroConhecimento.md
     - Plano de Riscos: gestaoDoProjeto/planoDeRisco.md
     - Plano de Custos: gestaoDoProjeto/planoDeCusto.md
     - Atas de reunião: atasDeReuniao/atasReuniao.md
