@@ -21,6 +21,7 @@ nav:
     - Identidade visual: identidadeVisual/identidadeVisual.md
 
   - Gestão do projeto:
+    - Quadros de pareamento: gestaoDoProjeto/quadroPareamento.md
     - Plano de Riscos: gestaoDoProjeto/planoDeRisco.md
     - Plano de Custos: gestaoDoProjeto/planoDeCusto.md
     - Atas de reunião: atasDeReuniao/atasReuniao.md
