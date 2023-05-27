@@ -8,7 +8,9 @@
 |2.0| 12/05/2023 | Criado o protótipo de alta fidelidade da tela de login | Pedro Braga e Yan Lucca |
 |2.1| 12/05/2023 | Criado o protótipo de alta fidelidade da tela de cadastro | Artur Rodrigues |
 |2.2| 13/05/2023 | Adicionado o protótipo de alta fidelidade da tela de cadastro e login| Artur Rodrigues e Pedro Braga |
-|3.0| 16/05/2023 | Alterado e melhorado o protótipo de alta fidelidade da tela de cadastro e login| Artur Rodrigues e Letícia Resende|
+|2.3| 16/05/2023 | Alterado e melhorado o protótipo de alta fidelidade da tela de cadastro e login| Artur Rodrigues e Letícia Resende|
+|2.4| 25/05/2023 | Novos modelos de protótipos alterados e adicionados com IFrame | Artur Rodrigues e Guilherme Soares |
+|2.4.1| 26/05/2023 | Alterado o versionamento do código | Artur Rodrigues |
 
 ## Protótipos de Média Fidelidade
 
@@ -33,6 +35,6 @@ Protótipos de alta fidelidade em desenvolvimento de software são modelos inter
 
 <br/>
 
-Tela de Login e de Cadastro
+Telas de Login e de Cadastro
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FzyNXXEdSgbYnXQorSQPRgA%2FProt%25C3%25B3tipos-de-Alta-Fidelidade---DNIT%3Ftype%3Ddesign%26node-id%3D0%253A1%26t%3DdaJ4rAnQhQU3aqFi-1" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FzyNXXEdSgbYnXQorSQPRgA%2FProt%25C3%25B3tipos-de-Alta-Fidelidade---DNIT%3Ftype%3Ddesign%26node-id%3D0%253A1%26t%3DubaasyO5KT0LLZS9-1" allowfullscreen></iframe>

@@ -40,12 +40,6 @@ Os commits deverão seguir as seguintes regras:
 
 - Somente deve conter alterações referentes a issue do mesmo commit. 
 
-Observação: Por padrão, o caracter # define uma linha de comentário no arquivo da mensagem do commit. Para resolver este problema, use o commando:
-
-```
-git config --local core.commentChar '!'
-```
-
 Exemplo: Issue 1: [US-01] Cadastrar Usuário 
 
 ```
@@ -57,4 +51,3 @@ git commit -m " #1 Desevolvendo tela de login do cadastro de usuário"
 |**Data**|**Descrição**|**Autor(es)**|
 |--------|-------------|--------------|
 |12/05/2023| Criação do Guia de Contribuição | Yan Andrade |
-|18/05/2023| Adicionando observação | Yan Andrade |
