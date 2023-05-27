@@ -134,6 +134,11 @@ O acompanhamento dos riscos é essencial durante o desenvolvimento de um projeto
 
 <iframe width="700" height="760" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7s4UVvElF9pbC0jY9eKn7TW12wMgu5M2DUDaDbEdFctoYtkifFFyWUZYgIdYbDZwvNpdKdahqzvyk/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
+## Gráfico
+O gráfico abaixo mostra a pontuação total de Probabilidade x Impacto a cada sprint.
+
+<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7s4UVvElF9pbC0jY9eKn7TW12wMgu5M2DUDaDbEdFctoYtkifFFyWUZYgIdYbDZwvNpdKdahqzvyk/pubchart?oid=1399982651&amp;format=interactive"></iframe>
+
 ## Referências
 
 DevMedia. Gerência de riscos em desenvolvimento de software. Disponível em: https://www.devmedia.com.br/gerencia-de-riscos-em-desenvolvimento-de-software/28506. Acesso em: 13 mai 2023.
