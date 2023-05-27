@@ -18,6 +18,8 @@ nav:
     - Plano de Riscos: gestaoDoProjeto/planoDeRisco.md
     - Plano de Custos: gestaoDoProjeto/planoDeCusto.md
   - Identidade visual: identidadeVisual/identidadeVisual.md
+  - Documento de arquitetura: projeto/arquitetura.md
+  - Modelagem de Dados: modelagemDados/modelagemDeDados.md
   - Código de Conduta: codigoConduta/codConduta.md
   - Estorias de usuario: GuiaDeContribuicao/guiaDeContribuicao.md
 
