@@ -15,9 +15,12 @@ nav:
   - EAP: EAP/eap.md
   - Comunicação: atasDeReuniao/atasReuniao.md
   - Visão do Produto: visaodoproduto.md
+  - Custo e Risco:
+    - Plano de Riscos: gestaoDoProjeto/planoDeRisco.md
+    - Plano de Custos: gestaoDoProjeto/planoDeCusto.md
   - Identidade visual: identidadeVisual/identidadeVisual.md
-  - Historias de usuário: User Stories/userStories.md
-  - Plano de Riscos: gestaoDoProjeto/planoDeRisco.md
+  - Documento de arquitetura: projeto/arquitetura.md
+  - Modelagem de Dados: modelagemDados/modelagemDeDados.md
   - Código de Conduta: codigoConduta/codConduta.md
   - Estorias de usuario: GuiaDeContribuicao/guiaDeContribuicao.md
 
