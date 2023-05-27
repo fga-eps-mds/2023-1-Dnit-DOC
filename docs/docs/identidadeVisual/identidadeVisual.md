@@ -12,8 +12,6 @@ Abaixo se encontra o Manual de Gestão de Marca do DNIT, fornecido pelo mesmo em
 Este manual descreve a identidade visual que deve ser seguida na construção deste projeto.  
 
 
-<!-- ![aaaaaaaaaaaa](../assets/identidadeVisualDNIT/a-0.jpg) -->
-<!-- ![aaaaaaaaaaaa](../assets/identidadeVisualDNIT/a-1.jpg) -->
 ## Manual
 
 ### Conceito
@@ -40,7 +38,6 @@ Este manual descreve a identidade visual que deve ser seguida na construção de
 ![aaaaaaaaaaaa](../assets/identidadeVisualDNIT/a-12.jpg)
 ### Assinatura conjunta
 ![aaaaaaaaaaaa](../assets/identidadeVisualDNIT/a-13.jpg)
-<!-- ![aaaaaaaaaaaa](../assets/identidadeVisualDNIT/a-14.jpg) -->
 
 
 

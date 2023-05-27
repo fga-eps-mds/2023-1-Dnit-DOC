@@ -13,13 +13,19 @@ nav:
   - Backlog: Backlog/backlog.md
   - Protótipo: Prototipo/prototipo.md
   - EAP: EAP/eap.md
+  - Comunicação: atasDeReuniao/atasReuniao.md
   - Visão do Produto: visaodoproduto.md
   - Custo e Risco:
     - Plano de Riscos: gestaoDoProjeto/planoDeRisco.md
     - Plano de Custos: gestaoDoProjeto/planoDeCusto.md
     - Gráfico de Gantt: gestaoDoProjeto/graficoGantt.md
   - Identidade visual: identidadeVisual/identidadeVisual.md
+  - Documento de arquitetura: projeto/arquitetura.md
+  - Modelagem de Dados: modelagemDados/modelagemDeDados.md
   - Código de Conduta: codigoConduta/codConduta.md
+  - Sprints:
+    - Sprint 1: Sprints/Sprint_1.md
+    - Sprint 2: Sprints/Sprint_2.md
   - Estorias de usuario: GuiaDeContribuicao/guiaDeContribuicao.md
 
   #- Backlog: Backlog\backlog.md
