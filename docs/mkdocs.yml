@@ -18,6 +18,7 @@ nav:
   - Custo e Risco:
     - Plano de Riscos: gestaoDoProjeto/planoDeRisco.md
     - Plano de Custos: gestaoDoProjeto/planoDeCusto.md
+    - Gráfico de Gantt: gestaoDoProjeto/graficoGantt.md
   - Identidade visual: identidadeVisual/identidadeVisual.md
   - Documento de arquitetura: projeto/arquitetura.md
   - Modelagem de Dados: modelagemDados/modelagemDeDados.md
