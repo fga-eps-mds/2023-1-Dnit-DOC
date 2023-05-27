@@ -16,7 +16,6 @@ nav:
   - Documentos do projeto:
     - EAP: EAP/eap.md
     - Backlog: Backlog/backlog.md
-    - Historias de usuário: User Stories/userStories.md
     - Protótipos: Prototipo/prototipo.md
     - Documento de arquitetura: projeto/arquitetura.md
     - Identidade visual: identidadeVisual/identidadeVisual.md
