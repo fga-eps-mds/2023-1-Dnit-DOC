@@ -9,23 +9,35 @@ theme:
     primary: "indigo"
 nav:
   - Home: index.md
-  - Historias de usuário: User Stories/userStories.md
-  - Backlog: Backlog/backlog.md
-  - Protótipo: Prototipo/prototipo.md
-  - EAP: EAP/eap.md
-  - Comunicação: atasDeReuniao/atasReuniao.md
-  - Visão do Produto: visaodoproduto.md
-  - Custo e Risco:
+  
+  - Lean Inception:
+    - Visão do Produto: visaodoproduto.md
+  
+  - Documentos do projeto:
+    - EAP: EAP/eap.md
+    - Backlog: Backlog/backlog.md
+    - Historias de usuário: User Stories/userStories.md
+    - Protótipos: Prototipo/prototipo.md
+    - Documento de arquitetura: projeto/arquitetura.md
+    - Identidade visual: identidadeVisual/identidadeVisual.md
+
+  - Gestão do projeto:
     - Plano de Riscos: gestaoDoProjeto/planoDeRisco.md
     - Plano de Custos: gestaoDoProjeto/planoDeCusto.md
+    - Atas de reunião: atasDeReuniao/atasReuniao.md
     - Gráfico de Gantt: gestaoDoProjeto/graficoGantt.md
   - Identidade visual: identidadeVisual/identidadeVisual.md
   - Documento de arquitetura: projeto/arquitetura.md
   - Modelagem de Dados: modelagemDados/modelagemDeDados.md
   - Código de Conduta: codigoConduta/codConduta.md
   - Guia de Contribuicão: GuiaDeContribuicao/guiaDeContribuicao.md
-  - Sprints:
+  - Documentos das Sprints:
     - Sprint 1: Sprints/Sprint_1.md
     - Sprint 2: Sprints/Sprint_2.md
+
+  - Políticas do projeto:
+    - Guia de contribuição: GuiaDeContribuicao/guiaDeContribuicao.md
+    - Código de Conduta: codigoConduta/codConduta.md
+  
 
   #- Backlog: Backlog\backlog.md
