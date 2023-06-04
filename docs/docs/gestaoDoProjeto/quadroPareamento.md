@@ -1,6 +1,15 @@
 # Quadro de Pareamento 
+## Versionamento
+| Versão | Data | Modificação | Autor |
+|--|--|--|--|
+|1.0| 26/05/2023 | Criação do documento | Antônio Neto |
+|1.1| 04/06/2023 | revisão do documento | Felipe e Yan Andrade |
 
-No contexto de planejamento de reuniões, um quadro de pareamento utilizando um heatmap pode ser uma ferramenta eficaz para identificar os horários mais favoráveis para a equipe se reunir. Essa abordagem visual utiliza cores para destacar os períodos em que a maioria dos membros está disponível ou prefere realizar as reuniões. Dessa forma, o heatmap possibilita uma rápida identificação dos melhores horários, facilitando o agendamento de encontros que sejam convenientes para todos os participantes. Com essa visualização clara e intuitiva, é possível otimizar o tempo e a produtividade das reuniões, garantindo a participação efetiva da equipe.
+## Introdução
+
+No contexto de planejamento de reuniões, um quadro de pareamento utilizando um heatmap pode ser uma ferramenta eficaz para identificar os horários mais favoráveis para a equipe se reunir. Essa abordagem visual utiliza cores para destacar os períodos em que a maioria dos membros está disponível ou prefere realizar as reuniões. 
+
+Dessa forma, o heatmap possibilita uma rápida identificação dos melhores horários, facilitando o agendamento de encontros que sejam convenientes para todos os participantes. Com essa visualização clara e intuitiva, é possível otimizar o tempo e a produtividade das reuniões, garantindo a participação efetiva da equipe.
 
 ## EPS
 
