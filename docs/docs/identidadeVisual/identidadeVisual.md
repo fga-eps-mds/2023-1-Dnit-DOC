@@ -6,10 +6,10 @@ hide:
 
 ## Histórico de versionamento
 
-| **Data**   | **Descrição**                                                                 | **Autor(es)**         |
-| ---------- | ----------------------------------------------------------------------------- | --------------------- |
-| 18/05/2023 | Criação da pagina e adição do manual de identidade visual fornecido pelo DNIT | João Gabriel de Matos |
-| 04/06/2023 | Revisão do documento e corrigindo pequenos erros | Yan Andrade de Sena |
+| Versão | Data   | Modificação                                                            | Autor        |
+| -- | ---------- | ----------------------------------------------------------------------------- | --------------------- |
+| 1.0 | 18/05/2023 | Criação da pagina e adição do manual de identidade visual fornecido pelo DNIT | João Gabriel de Matos |
+| 1.1 | 04/06/2023 | Revisão do documento e corrigindo pequenos erros | Yan Andrade de Sena |
 
 # Identidade Visual
 
