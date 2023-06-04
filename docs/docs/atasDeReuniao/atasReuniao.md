@@ -1,4 +1,9 @@
 # Plano de comunicação
+## Versionamento
+| Versão | Data | Modificação | Autor |
+|--|--|--|--|
+|1.0| 26/05/2023 | Criação do documento | Antônio Neto |
+|1.1| 04/06/2023 | revisão do documento | Felipe e Yan Andrade |
 
 # Reuniões
 
