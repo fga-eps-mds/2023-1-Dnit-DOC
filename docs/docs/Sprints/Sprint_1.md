@@ -1,3 +1,10 @@
+## Histórico de versionamento
+
+| Versão | Data   | Modificação                                                            | Autor        |
+| -- | ---------- | ----------------------------------------------------------------------------- | --------------------- |
+| 1.0 | 21/05/2023 | Criação do documento | Antônio Neto |
+| 1.1 | 04/06/2023 | Revisão do documento e adicionando versionamento | Yan Andrade de Sena |
+
 # Sprint 1
 
 Período: 15/05/2023 a 21/05/2023

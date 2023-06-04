@@ -6,12 +6,13 @@
 |1.0| 17/05/2023 | Criação do documento | Lucas Rodrigues |
 |1.1| 21/05/2023 | Adição da planilha e gráficos | Lucas Rodrigues |
 |1.1| 26/05/2023 | Revisão do documento | Antônio Neto |
+|1.2| 04/06/2023 | Revisão do documento - Adicionando link para referências | Felipe e Yan Andrade |
 
 ## Custos
 
 ### Pessoas
 
-De acordo com o Jornal da Unesp, cada aluno de uma universidade federal custa em média R$ 40.900,00 por ano. Como esses dados se referem ao ano de 2015, há a necessidade de corrigir o valor para o ano de 2023 de acordo com a inflação. Após aplicar essa correção utilizando a calculadora de inflação do IBGE, o valor passa a ser R$ 61.113,95 por ano, ou R$ 1.175,27 por semana.
+De acordo com o <a href=./#referencias>Jornal da Unesp</a>, cada aluno de uma universidade federal custa em média R$ 40.900,00 por ano. Como esses dados se referem ao ano de 2015, há a necessidade de corrigir o valor para o ano de 2023 de acordo com a inflação. Após aplicar essa correção utilizando a calculadora de inflação do <a href=./#referencias>IBGE</a>, o valor passa a ser R$ 61.113,95 por ano, ou R$ 1.175,27 por semana.
 
 **R$ 61.113,95 ÷ 52 semanas ≈ R$ 1.175,27**
 
@@ -29,7 +30,7 @@ Sendo assim, o custo semanal por integrante da equipe é de R$ 489,70. Como a eq
 
 ### Internet
 
-Segundo os dados disponíveis no site Melhor Escolha, o plano de internet mais popular de 250 Mbps, que é suficiente para as atividades do projeto, custa R$ 99,90 por mês, ou R$ 23,07 por semana.
+Segundo os dados disponíveis no site <a href=./#referencias>Melhor Escolha</a>, o plano de internet mais popular de 250 Mbps, que é suficiente para as atividades do projeto, custa R$ 99,90 por mês, ou R$ 23,07 por semana.
 
 **R$ 99,90 ÷ 4,33 semanas ≈ R$ 23,07**
 
@@ -37,7 +38,7 @@ Como a equipe trabalhará na maior parte do tempo de forma remota e em locais se
 
 ### Energia
 
-De acordo com dados da CEMIG, um notebook consome em torno de 7,20 kWh por mês caso fique ligado durante 8h por dia. Sabendo que cada integrante trabalhará em um equipamento diferente e que o equipamento não deverá ser usado mais do que 8h por dia, o consumo estimado será de 1,66 kWh por semana.
+De acordo com dados da CEMIG, um notebook consome em torno de 7,20 kWh por mês caso fique ligado durante 8h por dia. Sabendo que cada integrante trabalhará em um equipamento diferente e que o equipamento não deverá ser usado mais do que 8h por dia, o consumo estimado será de 1,66 kWh por semana.<a href=./#referencias>⁴</a>
 
 **7,20 kWh por mês ÷ 4,33 semanas ≈ 1,66 kWh por semana**
 
@@ -88,10 +89,10 @@ Além disso, o gráfico abaixo mostra as custos a cada semana de projeto, no qua
 
 ## Referências
 
-Jornal da Unesp. Cobrança de mensalidade não é a solução para o financiamento da universidade pública. Disponível em: https://jornal.unesp.br/2022/06/08/cobranca-de-mensalidade-nao-e-a-solucao-para-o-financiamento-da-universidade-publica. Acesso em: 17 mai. 2023.
+> [1] Jornal da Unesp. Cobrança de mensalidade não é a solução para o financiamento da universidade pública. Disponível em: https://jornal.unesp.br/2022/06/08/cobranca-de-mensalidade-nao-e-a-solucao-para-o-financiamento-da-universidade-publica. Acesso em: 17 mai. 2023.
 
-IBGE. O que é inflação. Disponível em: https://www.ibge.gov.br/explica/inflacao.php. Acesso em: 17 mai. 2023.
+> [2] IBGE. O que é inflação. Disponível em: https://www.ibge.gov.br/explica/inflacao.php. Acesso em: 17 mai. 2023.
 
-Melhor Escolha. Internet em Brasília. Disponível em: https://melhorescolha.com/internet-banda-larga/brasilia-df. Acesso em: 17 mai. 2023.
+> [3] Melhor Escolha. Internet em Brasília. Disponível em: https://melhorescolha.com/internet-banda-larga/brasilia-df. Acesso em: 17 mai. 2023.
 
-Showmetech. Gastando muita energia? Descubra 10 eletrônicos vilões da conta de luz. Disponível em: https://www.showmetech.com.br/eletronicos-que-mais-consomem-energia. Acesso em: 17 mai. 2023.
+> [4] Showmetech. Gastando muita energia? Descubra 10 eletrônicos vilões da conta de luz. Disponível em: https://www.showmetech.com.br/eletronicos-que-mais-consomem-energia. Acesso em: 17 mai. 2023.

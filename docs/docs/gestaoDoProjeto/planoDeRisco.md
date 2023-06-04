@@ -6,14 +6,14 @@
 |1.0| 12/05/2023 | Criação do documento | Lucas Rodrigues |
 |1.1| 13/05/2023 | Levantamento dos riscos | Lucas Rodrigues |
 |1.2| 14/05/2023 | Adição da planilha de monitoramento | Lucas Rodrigues |
-
+|1.3| 04/06/2023 | Revisão do documento | Felipe e Yan Andrade |
 ## Introdução
 
-Os riscos de um projeto podem comprometer o seu planejamento, cronograma e custo, podendo estar relacionados a diversos fatores, como custo, tempo, pessoas, recursos, clientes, requisitos, entre outros. Com o objetivo de identificar, analisar e monitorar esses riscos, foi elaborado este plano de gestão de riscos.
+Os riscos de um projeto podem comprometer o seu planejamento, cronograma e custo, podendo estar relacionados a diversos fatores, como custo, tempo, pessoas, recursos, clientes, requisitos, entre outros <a href=./#referencias>¹</a>. Com o objetivo de identificar, analisar e monitorar esses riscos, foi elaborado este plano de gestão de riscos.
 
 ### Tipos de risco
 
-Para a classificação dos riscos, foram consideradas as seguintes categorias:
+Para a classificação dos riscos, foram consideradas as seguintes categorias <a href=./#referencias>³</a>:
 
 - Externo
 - Gerencial
@@ -130,7 +130,7 @@ Para a classificação dos riscos, foram consideradas as seguintes categorias:
 
 ## Monitoramento dos Riscos
 
-O acompanhamento dos riscos é essencial durante o desenvolvimento de um projeto de software, uma vez que os riscos não são estáticos e podem mudar de nível ao longo do projeto. Para realizar esse monitoramento foi criada uma planilha para inserir a pontuação dos riscos para cada sprint.
+O acompanhamento dos riscos é essencial durante o desenvolvimento de um projeto de software, uma vez que os riscos não são estáticos e podem mudar de nível ao longo do projeto <a href=./#referencias>²</a>. Para realizar esse monitoramento foi criada uma planilha para inserir a pontuação dos riscos para cada sprint.
 
 <iframe width="700" height="760" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7s4UVvElF9pbC0jY9eKn7TW12wMgu5M2DUDaDbEdFctoYtkifFFyWUZYgIdYbDZwvNpdKdahqzvyk/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
@@ -141,8 +141,8 @@ O gráfico abaixo mostra a pontuação total de Probabilidade x Impacto a cada s
 
 ## Referências
 
-DevMedia. Gerência de riscos em desenvolvimento de software. Disponível em: https://www.devmedia.com.br/gerencia-de-riscos-em-desenvolvimento-de-software/28506. Acesso em: 13 mai 2023.
+> [1] DevMedia. Gerência de riscos em desenvolvimento de software. Disponível em: https://www.devmedia.com.br/gerencia-de-riscos-em-desenvolvimento-de-software/28506. Acesso em: 13 mai 2023.
 
-Escritório de Projetos. Objetivo do Plano de gerenciamento dos riscos. Disponível em: https://escritoriodeprojetos.com.br/downloads/send/8-modelos/129-plano-de-gerenciamento-dos-riscos. Acesso em: 12 mai 2023.
+> [2] Escritório de Projetos. Objetivo do Plano de gerenciamento dos riscos. Disponível em: https://escritoriodeprojetos.com.br/downloads/send/8-modelos/129-plano-de-gerenciamento-dos-riscos. Acesso em: 12 mai 2023.
 
-Isotani, Seiji; Rocha, Rafaela. Gestão de Riscos em Projetos de Software. Disponível em: https://edisciplinas.usp.br/pluginfile.php/3385127/mod_resource/content/1/Aula10-GerenciaProjeto-Riscos.pdf. Acesso em: 13 mai 2023.
+> [3] Isotani, Seiji; Rocha, Rafaela. Gestão de Riscos em Projetos de Software. Disponível em: https://edisciplinas.usp.br/pluginfile.php/3385127/mod_resource/content/1/Aula10-GerenciaProjeto-Riscos.pdf. Acesso em: 13 mai 2023.
