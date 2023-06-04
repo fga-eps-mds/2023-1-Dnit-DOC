@@ -40,7 +40,7 @@ Este manual descreve a identidade visual que deve ser seguida na construção de
 ### Caixa de proteção
 ![Caixa de proteção](../assets/identidadeVisualDNIT/a-10.jpg)
 ### Logo em fundos coloridos
-![aaaaaaaaaaaa](../assets/identidadeVisualDNIT/a-11.jpg)
+![Logo em fundos coloridos](../assets/identidadeVisualDNIT/a-11.jpg)
 ### Logo em fundos instáveis
 ![Logo em fundos instáveis](../assets/identidadeVisualDNIT/a-12.jpg)
 ### Assinatura conjunta
