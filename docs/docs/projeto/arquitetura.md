@@ -5,6 +5,9 @@
 |--|--|--|--|
 |1.0| 26/05/2023 | Criação do documento | Lucas Rodrigues |
 |1.1| 26/05/2023 | Incluindo informações da visão de dados | Antônio Neto, João de Matos, Lucas Rodrigues |
+|1.2| 04/06/2023 | Atualização diagrama de arquitetura | Denys Rógeres |
+|1.3| 04/06/2023 | Revisão do documento e Linkando referências | Yan Andrade de Sena |
+
 
 ## Introdução
 Este documento tem como objetivo detalhar a arquitetura do projeto, fornecendo uma visão geral da arquitetura e dos dados. Além disso são descritas as tecnologias utilizadas para o desenvolvimento.
@@ -35,6 +38,9 @@ A arquitetura do projeto consiste no front-end e 3 microsserviços no back-end, 
 
 ### Front-end
 Responsável por fornecer a interface com o usuário.
+
+### Amazon API Gateway
+O Amazon API Gateway é um serviço fundamental da Amazon Web Services (AWS) que permite aos desenvolvedores criar, implantar e gerenciar APIs de forma eficiente, fornecendo uma interface poderosa para integrar aplicativos e serviços, garantindo escalabilidade, segurança, controle de tráfego e análise de desempenho.
 
 ### Usuários
 Este microsserviço é reponsável pelo gerenciamento dos usuários cadastrados, tanto funcionários do DNIT quanto de empresas executoras.
@@ -175,16 +181,16 @@ Este DER representa a versão mais recente.
 
 ## Referências
 
-ASP.NET. Disponível em: https://dotnet.microsoft.com/pt-br/apps/aspnet. Acesso em: 26 mai. 2023.
+> [1] ASP.NET. Disponível em: https://dotnet.microsoft.com/pt-br/apps/aspnet. Acesso em: 26 maio 2023.
 
-Geekhunter. O que são microsserviços e como funcionam?. Disponível em: https://blog.geekhunter.com.br/arquitetura-de-microsservicos-x-arquitetura-monolitica/. Acesso em: 26 mai. 2023.
+> [2] Geekhunter. O que são microsserviços e como funcionam?. Disponível em: https://blog.geekhunter.com.br/arquitetura-de-microsservicos-x-arquitetura-monolitica/. Acesso em: 26 maio 2023.
 
-Icaro Tech. O crescimento dos Microsserviços e a importância das APIs. Disponível em: https://icarotech.com/blog/o-crescimento-dos-microsservicos-e-a-importancia-das-apis/. Acesso em: 26 mai. 2023.
+> [3] Icaro Tech. O crescimento dos Microsserviços e a importância das APIs. Disponível em: https://icarotech.com/blog/o-crescimento-dos-microsservicos-e-a-importancia-das-apis/. Acesso em: 26 maio 2023.
 
-Jest. Disponível em: https://jestjs.io/pt-BR/. Acesso em: 26 mai. 2023.
+> [4] Jest. Disponível em: https://jestjs.io/pt-BR/. Acesso em: 26 maio 2023.
 
-PostgreSQL. Disponível em: https://www.postgresql.org/. Acesso em: 26 mai. 2023.
+> [5] PostgreSQL. Disponível em: https://www.postgresql.org/. Acesso em: 26 maio 2023.
 
-React. Disponível em: https://react.dev/. Acesso em: 26 mai. 2023.
+> [6] React. Disponível em: https://react.dev/. Acesso em: 26 maio 2023.
 
-xUnit. Disponível em: https://xunit.net/. Acesso em: 26 mai. 2023.
+> [7] xUnit. Disponível em: https://xunit.net/. Acesso em: 26 maio 2023.

@@ -1,5 +1,11 @@
 # Código de Conduta
 
+## Versionamento
+| Versão | Data | Modificação | Autor |
+|--|--|--|--|
+|1.0| 15/05/2023 | Criação do Código de Conduta | Isadora Soares |
+|1.1| 04/06/2023 | revisão do documento | Felipe e Yan Andrade |
+
 ## Introdução
 
 Este código de conduta estabelece diretrizes e expectativas para o comportamento dos membros do grupo, incluindo estudantes, professores, tutores e colaboradores. A elaboração desse código de conduta é uma forma de garantir que todos os membros sejam tratados de forma justa e igualitária, sem discriminação ou preconceito.
@@ -25,9 +31,3 @@ Nós mantemos uma comunicação transparente e honesta sobre o progresso do proj
 Se qualquer membro do grupo violar o código de conduta, será tomada uma ação apropriada. Os membros que testemunharem uma violação do código de conduta podem reportar o incidente de forma confidencial e segura para um dos organizadores do grupo, que irá investigar e tomar as medidas necessárias.
 
 As violações do código de conduta podem resultar em medidas disciplinares, incluindo a expulsão do grupo.
-
-### Histórico de versão
-
-| **Data**   | **Descrição**                | **Autor(es)**  |
-| ---------- | ---------------------------- | -------------- |
-| 15/05/2023 | Criação do Código de Conduta | Isadora Soares |
