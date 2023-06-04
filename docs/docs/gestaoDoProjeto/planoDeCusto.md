@@ -6,7 +6,7 @@
 |1.0| 17/05/2023 | Criação do documento | Lucas Rodrigues |
 |1.1| 21/05/2023 | Adição da planilha e gráficos | Lucas Rodrigues |
 |1.1| 26/05/2023 | Revisão do documento | Antônio Neto |
-|1.2| 04/06/2023 | revisão do documento | Felipe e Yan Andrade |
+|1.2| 04/06/2023 | Revisão do documento - Adicionando link para referências | Felipe e Yan Andrade |
 
 ## Custos
 
