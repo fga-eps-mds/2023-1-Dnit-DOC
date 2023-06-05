@@ -11,6 +11,7 @@
 |2.3| 16/05/2023 | Alterado e melhorado o protótipo de alta fidelidade da tela de cadastro e login| Artur Rodrigues e Letícia Resende|
 |2.4| 25/05/2023 | Novos modelos de protótipos alterados e adicionados com IFrame | Artur Rodrigues e Guilherme Soares |
 |2.4.1| 26/05/2023 | Alterado o versionamento do código | Artur Rodrigues |
+|
 
 ## Protótipos de Média Fidelidade
 
@@ -20,13 +21,13 @@ Protótipos de média fidelidade são modelos interativos e visualmente mais pr�
 
 Tela de Login
 
-![Protótipo de Média Fidelidade - Tela de Login](../assets/prototipoLogin.jpeg "alt")
+![Protótipo de Média Fidelidade - Tela de Login](../assets/prototipos/prototipoLogin.jpeg "alt")
 
 <br/>
 
 Tela de Cadastro
 
-![Protótipo de Média Fidelidade - Tela de Cadastro](../assets/prototipoCadastro.jpeg "alt")
+![Protótipo de Média Fidelidade - Tela de Cadastro](../assets/prototipos/prototipoCadastro.jpeg "alt")
 
 <br/>
 
@@ -38,3 +39,9 @@ Protótipos de alta fidelidade em desenvolvimento de software são modelos inter
 Telas de Login e de Cadastro
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FzyNXXEdSgbYnXQorSQPRgA%2FProt%25C3%25B3tipos-de-Alta-Fidelidade---DNIT%3Ftype%3Ddesign%26node-id%3D0%253A1%26t%3DubaasyO5KT0LLZS9-1" allowfullscreen></iframe>
+
+<br/>
+
+Tela de Listagem de escolas
+
+![Prototipo de Alta Fidelidade - Tela de Listagem de Escolas](../assets/prototipos/Tela%20-%20Escolas%20Cadastradas.jpg "alt")
