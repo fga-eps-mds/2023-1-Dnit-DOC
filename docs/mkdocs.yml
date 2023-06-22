@@ -27,11 +27,7 @@ nav:
     - Plano de Custos: gestaoDoProjeto/planoDeCusto.md
     - Plano de Comunicação: atasDeReuniao/atasReuniao.md
     - Gráfico de Gantt: gestaoDoProjeto/graficoGantt.md
-  - Identidade visual: identidadeVisual/identidadeVisual.md
-  - Documento de arquitetura: projeto/arquitetura.md
-  - Modelagem de Dados: modelagemDados/modelagemDeDados.md
-  - Código de Conduta: codigoConduta/codConduta.md
-  - Guia de Contribuicão: GuiaDeContribuicao/guiaDeContribuicao.md
+    
   - Documentos das Sprints:
     - Sprint 1: Sprints/Sprint_1.md
     - Sprint 2: Sprints/Sprint_2.md
@@ -39,12 +35,12 @@ nav:
     - Sprint 4: Sprints/Sprint_4.md
     - Sprint 5: Sprints/Sprint_5.md
     - Sprint 6: Sprints/Sprint_6.md
+
   
   - Políticas do projeto:
     - Guia de contribuição: GuiaDeContribuicao/guiaDeContribuicao.md
     - Código de Conduta: codigoConduta/codConduta.md
   
-  - Estorias de usuario: User Stories/userStories.md
-  - Modelagem de Dados: modelagemDados/modelagemDeDados.md
+
 
   #- Backlog: Backlog\backlog.md
