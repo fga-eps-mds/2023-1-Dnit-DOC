@@ -11,7 +11,7 @@
 |2.3| 16/05/2023 | Alterado e melhorado o protótipo de alta fidelidade da tela de cadastro e login| Artur Rodrigues e Letícia Resende|
 |2.4| 25/05/2023 | Novos modelos de protótipos alterados e adicionados com IFrame | Artur Rodrigues e Guilherme Soares |
 |2.4.1| 26/05/2023 | Alterado o versionamento do código | Artur Rodrigues |
-|
+|2.4.2| 04/06/2023 | Adicionando o prototipo de alta fidelidade da tela de listagem das escolas | Júlia Sant'anna e Pedro Braga |
 
 ## Protótipos de Média Fidelidade
 
