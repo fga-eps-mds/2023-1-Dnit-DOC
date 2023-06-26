@@ -8,7 +8,6 @@
 |1.2| 04/06/2023 | Atualização diagrama de arquitetura | Denys Rógeres |
 |1.3| 04/06/2023 | Revisão do documento e Linkando referências | Yan Andrade de Sena |
 
-
 ## Introdução
 Este documento tem como objetivo detalhar a arquitetura do projeto, fornecendo uma visão geral da arquitetura e dos dados. Além disso são descritas as tecnologias utilizadas para o desenvolvimento.
 
