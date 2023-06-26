@@ -16,7 +16,6 @@ Em relação a **US01** e a **US04**, ficou pendentes os seguintes pontos que en
 - Ajustar alguns pontos na tela de cadastro par
 a ficar de acordo com o protótipo - Artur, Pedro e Antonio
 - Testes unitários e de integração - Denys, Lucas e Isadora
-<<<<<<< HEAD
 - Criptografia de senha - Denys e Lucas
 
 
