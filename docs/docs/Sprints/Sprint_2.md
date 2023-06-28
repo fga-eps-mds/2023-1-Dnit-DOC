@@ -99,6 +99,5 @@ Critérios de aceitação:
 
 A retrospectiva da Sprint 2 foi feita através de uma planilha compartilhada por todos os integrantes, na qual colocava-se os pontos positivos, negativos e pontos a melhorar em relação a Sprint em questão. Também foram colocados os pontos que conseguimos melhorara a partir da Sprint passada.
 
-<iframe width="700" height="450" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRQEnsKWDXz5-JGMax2e1ARVivZXLXWykd5tLpDkFRChHly0l5dTAL8zTBqBe2QQuXhi7bCs6z4zii6/pubhtml?gid=718670246&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-
+<iframe width="700" height="450" src="https://docs.google.com/spreadsheets/d/1zzjWSMc65me6gRfobZ1gK1bY1HtND6e2q7DFHlfSdxI/edit#gid=1767760740/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
