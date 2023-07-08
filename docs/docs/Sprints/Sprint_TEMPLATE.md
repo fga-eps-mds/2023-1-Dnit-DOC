@@ -26,7 +26,7 @@ XXXX - Não foi entregue completamente.
 
 XXXXXXX 
 
-## Objetivos da Sprint 6
+## Objetivos da Sprint X
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
