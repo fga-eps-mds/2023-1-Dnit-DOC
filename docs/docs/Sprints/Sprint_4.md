@@ -1,60 +1,73 @@
+# Versionamento
+
+| Versão | Data   | Modificação         | Autor        |
+| -- | ---------- | ------------------- | ------------ |
+| 1.0| 19/06/2023 | Criação do documento | João Gabriel |
+| 1.1| 08/07/2023 | Refazendo documento para se adequar ao template | Felipe Agustini |
+
 # Sprint 4
 
 Período: 05/06/2023 a 09/06/2023
 
-# Débito técnico
+## Resultados da Sprint 3
 
-Os seguintes pontos ficaram pendentes e foram incluidos na Sprint 5.
+### US
 
-|  US   | Observação                                                                                              |
-| :---: | :------------------------------------------------------------------------------------------------------ |
-| US09  | Falta completar o front-end e iniciar a implementação do back-end                                       |
-| US11  | Falta completar o back-end                                                                              |
-| US12  | Falta completar o back-end                                                                              |
-| US18  | Falta completar o backend                                                                               |
-| US25  | Falta adicionar intgração com a API do INEP, um membro de EPS irá ser responsavel por essa finalização. |
+US09 - Entregue parcialmente
 
-# Planning
+US11 - Entregue parcialmente
 
-## Backlog da Sprint
+US12 - Entregue parcialmente
 
-Devido aos debitos tecnicos, foi atribuida apenas uma nova US nesta Sprint, US10.
+US18 - A parte planejada foi entregue.
 
+US25 - A parte planejada foi entregue.
 
-| US   | Membros responsáveis(MDS) | Membros responsáveis(EPS) |
-| ---- | ------------------------- | ------------------------- |
-| US09 | Mateus e Miguel           |                           |
-| US11 | Pedro e Julia             |                           |
-| US10 | Yan e Leticia             |                           |
-| US12 | Arthur e Ricardo          |                           |
-| US18 | Guilherme e Carol         |                           |
-| US25 |                           | João Gabriel de Matos     |
+### Atividades de EPS
 
+Pipeline do sonarcloud - Não foi entregue.
 
-### User Storie 10
+Dockerização dos ambientes - Não foi entregue completamente.
 
-Critérios de aceitação:
+integração de Rotas - Entregue
 
-- Deve-se realizar a implementação da view para visualização de escolas, realizando a comunicação com banco de dado de dev.
-- Deve-se realizar a atualização da implementação da tela de Listagem das Escolas de Acordo com o protótipo de alta fidelidade.
+Correção dos Drafts/issues sem template - Entregue
 
+Correção de bugs - Entregue
 
+Graficos e planilhas: Custo  - Entregue
 
+### Observações
 
+Falta adicionar integração com a API do INEP na US25, um membro de EPS irá ser responsavel por essa finalização.  
 
-| Tarefa    | _Definition of Done_                                          |
-| --------- | ------------------------------------------------------------- |
-| Front-end | Deve-se estar condizente com o protótipo                      |
-|           | Possuir uma Filtragem das escolas de acordo com UF e Situação |
-|           | Comunicação com o endpoint do backend                         |
-|           | Print da tela rodando localmente                              |
-| Back-end  | Print do swagger com endpoint                                 |
-|           | Print do banco de dados com a view de uma escola cadastrada   |
+## Objetivos da Sprint 4
 
+Realizar a integração com a API do INEP e realização das US09/10/11/12/19
 
+### Distribuição das US
+
+| US | Objetivo | Responsáveis |
+|----|----------|--------------|
+|US09| Implementação do cadastro de escolas | Mateus e Miguel |
+|US11| Visualização de escolas | Pedro e Julia | 
+|US12| Importação de planilhas p/ cadastro de escolas | Arthur e Ricardo | 
+|US19| Exclusão de sitação de escolas | Guilherme e Carol | 
+|US10| Exclusão de escola | Yan e Leticia | 
+
+### Atividades de EPS
+
+| Objetivo | Responsáveis |
+|----------|--------------|
+| Integração com a API do INEP |  João  |
+| Dojo de Testes |  Isadora e Lucas |
+| Refatoração do backlog |  Felipe e Antonio  |
+| Refatoração do roadmap |  Felipe  |
+| Estudo sobre o calculo de UPS |  Denys, Felipe e Lucas  |
+| Integração do Sonar |  Denys  |
 
 # Retrospectiva
 
-A retrospectiva da Sprint  foi feita através de uma planilha compartilhada por todos os integrantes, na qual colocava-se os pontos positivos, negativos e pontos a melhorar em relação a Sprint em questão. Também foram colocados os pontos que conseguimos melhorara a partir da Sprint passada.
+A retrospectiva da Sprint 4 foi feita através de uma planilha compartilhada por todos os integrantes, na qual colocava-se os pontos positivos, negativos e pontos a melhorar em relação a Sprint em questão. Também foram colocados os pontos que conseguimos melhorara a partir da Sprint passada.
 
 <iframe width="700" height="450" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRQEnsKWDXz5-JGMax2e1ARVivZXLXWykd5tLpDkFRChHly0l5dTAL8zTBqBe2QQuXhi7bCs6z4zii6/pubhtml?gid=2041675629&amp;single=true&amp;widget=true&amp;headers=false"></iframe>

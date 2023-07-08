@@ -56,26 +56,18 @@ Realizar as alterações solicitadas pelo usuários referente as funcionalidades
 
 | Objetivo | Responsáveis |
 |----------|--------------|
-| Refatoração do Frontend |  Isadora  |
-| Refatoração das rotas |  Antonio  |
 | Finalizar a US12 | Jonga |
 | Backlog do produto - Planejado X Realizado | Antonio |
 | Custo - Planejado X Realizado | Felipe |
 | Risco - Planejado X Realizado | Lucas |
 | Qualidade - Planejado X Realizado | Antonio |
-| Ambientes de homologação e testes | Denys e Isadora |
 | Manual de instalação do produto | Denys e Jonga |
 | Canvas Analytics | Denys e Lucas |
-| Ambientes de homologação e testes | Denys e Isadora |
-| JWT para Login | Lucas e Yan |
 | Prototipação Dashboard e Landing Page | Felipe e Isadora |
 
-
 # Retrospectiva
-Ainda será realizada
 
-<!--
-A retrospectiva da Sprint [X-1] foi feita através de uma planilha compartilhada e preeenchida anonimamente por todos os integrantes. A qual consta os pontos positivos, negativos e pontos a melhorar em relação a Sprint em questão. Também foram colocados os pontos que conseguimos melhorara a partir da Sprint passada.
--->
+A retrospectiva da Sprint 7 foi feita através de uma planilha compartilhada e preeenchida anonimamente por todos os integrantes. A qual consta os pontos positivos, negativos e pontos a melhorar em relação a Sprint em questão. Também foram colocados os pontos que conseguimos melhorara a partir da Sprint passada.
 
-<iframe width="700" height="450" src="Pegar link no Doc da retro: Arquivos>compartilhar>publicar na WEB"></iframe>
+
+<iframe width="700" height="450" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRQEnsKWDXz5-JGMax2e1ARVivZXLXWykd5tLpDkFRChHly0l5dTAL8zTBqBe2QQuXhi7bCs6z4zii6/pubhtml?gid=914535299&single=true"></iframe>
