@@ -1,5 +1,8 @@
 ## Frontend
-É a inteface, reactjs,typescript
+
+O frontend é a parte da aplicação com a qual os usuários interagem diretamente. Ele se concentra em projetar e implementar a interface visual e interativa, tornando o software fácil de usar e visualmente atraente. O frontend é responsável por exibir informações, capturar entradas dos usuários e transmitir essas informações aos serviços para processamento. Em suma, o frontend tem como objetivo proporcionar uma experiência agradável e intuitiva para os usuários, facilitando a interação com o software.
+
+Neste projeto, o frontend foi criado utilisando a linguagem typescript, com as bibliotecas React e Ant Design.
 
 ### Como instalar
 
@@ -14,6 +17,7 @@ E caso vá utilizar o docker-compose:
 - Instalar o docker-compose
 
 #### Com o docker-compose
+
 O  Docker é uma ferramenta criada facilitar o desenvolvimento, a implantação e a execução de aplicativos, permitindo que eles sejam isolados e executados de forma consistente em diferentes ambientes (como sistemas operacionais diferentes). 
 
 ##### Passo-a-passo
@@ -48,10 +52,24 @@ O  Docker é uma ferramenta criada facilitar o desenvolvimento, a implantação 
   1. Vá até o terminal em que a mesma esta sendo executada.
   2. Pressione simultaneamente as teclas **ctrl**+**c**
 
-## Microsserviço
+## Microsserviços
+
+Microsserviços são uma abordagem de arquitetura de software em que um aplicativo é dividido em componentes independentes chamados de microsserviços. Cada microsserviço possui uma funcionalidade específica e se comunica com outros microsserviços através de interfaces bem definidas. Essa abordagem oferece modularidade, permitindo que cada componente seja desenvolvido, implantado e escalado de forma independente. Os microsserviços podem ser desenvolvidos em linguagens e tecnologias diferentes, facilitando a escolha das melhores ferramentas para cada funcionalidade. Além disso, os microsserviços podem ser distribuídos em servidores diferentes ou na nuvem, o que facilita a escalabilidade do sistema. Em resumo, os microsserviços proporcionam flexibilidade, modularidade e escalabilidade ao desenvolvimento de aplicativos.
+
+No caso deste projeto, temos 3 microserviços, sendo estes desenvolvidos na linguagem C# (C sharp), com uso do framework .NET (dotnet), sendo que estes fazem o tratamento e manipulações das informações que estão sendo enviadas para o banco de dados, ou requisitadas pelo frontend.
+
+### Os nossos microsserviços
+
+<!-- Os nossos microsserviços são: -->
+
+- [UsuarioService](https://github.com/fga-eps-mds/2023.1-Dnit-UsuarioService): Serviço responsavel pelas funcionalidades relacionadas à autentificação (cadastro de usuarios, login, solicitação de recuperação de senha, redefinição de senha).
+- [EscolaServices](https://github.com/fga-eps-mds/2023.1-Dnit-EscolaService): Serviço responsavel pelas funcionalidades relacionados as escolas (cadastro, busca, atualização e exclusão de escolas,e solicitações para ação do DNIT).
+- [UpsService](https://github.com/fga-eps-mds/2023.1-Dnit-UpsService): Serviço responsavel pelas funcionalidades relacionadas a acidentes de tránsito (cadastro de sinistros, calculo de UPS, cadastro e atualização dos dados de rodovia).
+  
 
 ## Histórico de versionamento
 
 | Versão | Data       | Modificação                                         | Autor                 |
 | ------ | ---------- | --------------------------------------------------- | --------------------- |
 | 1.0    | 08/07/2023 | Abertura do documento e instruções para o frontend. | João Gabriel de Matos |
+| 1.1    | 08/07/2023 | Incio do manual dos microserviços.                  | João Gabriel de Matos |
