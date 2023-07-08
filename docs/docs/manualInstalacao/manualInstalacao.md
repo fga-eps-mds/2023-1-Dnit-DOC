@@ -1,7 +1,7 @@
 ## Frontend
 É a inteface, reactjs,typescript
 
-### Como instalar localmente
+### Como instalar
 
 #### Pré-requisitos
 
@@ -13,7 +13,8 @@ E caso vá utilizar o docker-compose:
 - Instalar o docker
 - Instalar o docker-compose
 
-#### Utilizando o docker-compose
+#### Com o docker-compose
+O  Docker é uma ferramenta criada facilitar o desenvolvimento, a implantação e a execução de aplicativos, permitindo que eles sejam isolados e executados de forma consistente em diferentes ambientes (como sistemas operacionais diferentes). 
 
 ##### Passo-a-passo
 
