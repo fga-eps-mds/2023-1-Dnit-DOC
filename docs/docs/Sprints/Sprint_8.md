@@ -12,17 +12,17 @@ Período: 04/07/2023 a 09/07/2023
 
 ### US
 
-US13 - Entregue parcialmente
-
-US14 - Entregue parcialmente
-
-US08 - (antiga US18/US19) Entregue parcialmente
+US06 - (antiga US11/US09/US10) Entregue
 
 US07 - (antiga US12) Entregue
 
-US06 - (antiga US11/US09/US10) Entregue
+US08 - (antiga US18/US19) Entregue parcialmente
 
 US12 - (antiga 25) Entregue
+
+US13 - Entregue parcialmente
+
+US14 - Entregue parcialmente
 
 ### Atividades de EPS
 
@@ -81,4 +81,4 @@ Alterações - US06/07/08/12
 
 A retrospectiva da Sprint 8 foi feita através de uma planilha compartilhada e preeenchida anonimamente por todos os integrantes. A qual consta os pontos positivos, negativos e pontos a melhorar em relação a Sprint em questão. Também foram colocados os pontos que conseguimos melhorara a partir da Sprint passada.
 
-<iframe width="700" height="450" src="Pegar link no Doc da retro: Arquivos>compartilhar>publicar na WEB"></iframe>
+<iframe width="700" height="450" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRQEnsKWDXz5-JGMax2e1ARVivZXLXWykd5tLpDkFRChHly0l5dTAL8zTBqBe2QQuXhi7bCs6z4zii6/pubhtml?gid=1631853177&single=true"></iframe>
