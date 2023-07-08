@@ -70,6 +70,14 @@ No caso deste projeto, temos 3 microserviços, sendo estes desenvolvidos na ling
 
 A forma de instalação é igual para todos os serviços, havendo diferenças apenas com base no sistema operacional.
 
+_Observação_: No EscolaServices, é necessario adicionar um arquivo ".env" dentro da pasta "app", com as seguintes informações:
+
+    - EMAIL_SERVICE_ADDRESS : email usado para enviar a mensagem.
+    - EMAIL_SERVICE_PASSWORD: senha do email acima.
+    - EMAIL_DNIT: email que receberá a mensagem.
+
+
+
 #### Windows e MacOs
 
 Basta instalar a IDE [Visual Studio](https://visualstudio.microsoft.com/pt-br/free-developer-offers/), abrir a pasta do serviço, e clicar no icone que indica a iniciacização da aplicação.
