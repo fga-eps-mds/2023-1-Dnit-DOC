@@ -50,7 +50,7 @@ O  Docker é uma ferramenta criada facilitar o desenvolvimento, a implantação 
 
 * Para encerrar execução da aplicação:
   1. Vá até o terminal em que a mesma esta sendo executada.
-  2. Pressione simultaneamente as teclas **ctrl**+**c**
+  2. Pressione simultaneamente as teclas **ctrl**+**c**.
 
 ## Microsserviços
 
@@ -65,7 +65,41 @@ No caso deste projeto, temos 3 microserviços, sendo estes desenvolvidos na ling
 - [UsuarioService](https://github.com/fga-eps-mds/2023.1-Dnit-UsuarioService): Serviço responsavel pelas funcionalidades relacionadas à autentificação (cadastro de usuarios, login, solicitação de recuperação de senha, redefinição de senha).
 - [EscolaServices](https://github.com/fga-eps-mds/2023.1-Dnit-EscolaService): Serviço responsavel pelas funcionalidades relacionados as escolas (cadastro, busca, atualização e exclusão de escolas,e solicitações para ação do DNIT).
 - [UpsService](https://github.com/fga-eps-mds/2023.1-Dnit-UpsService): Serviço responsavel pelas funcionalidades relacionadas a acidentes de tránsito (cadastro de sinistros, calculo de UPS, cadastro e atualização dos dados de rodovia).
-  
+
+### Como instalar
+
+A forma de instalação é igual para todos os serviços, havendo diferenças apenas com base no sistema operacional.
+
+#### Windows e MacOs
+
+Basta instalar a IDE [Visual Studio](https://visualstudio.microsoft.com/pt-br/free-developer-offers/), abrir a pasta do serviço, e clicar no icone que indica a iniciacização da aplicação.
+
+#### Linux
+
+Instale o SDK do *.*NET .
+
+```bash
+sudo apt-get update && \
+  sudo apt-get install -y dotnet-sdk-6.0
+```
+
+Instale o runtime ASP.NET Core.
+
+```bash
+sudo apt-get update && \
+  sudo apt-get install -y aspnetcore-runtime-6.0
+```
+
+Entre na pasta do serviço,e então na pasta "app", e rode o comando:
+
+```bash
+dotnet run
+```
+
+### Encerrando a aplicação
+
+No terminal em que a aplicação esta rodando, digite simultaneamente as teclas **ctrl**+**c**.
+
 
 ## Histórico de versionamento
 
