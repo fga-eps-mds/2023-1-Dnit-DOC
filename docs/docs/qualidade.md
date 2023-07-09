@@ -1,3 +1,7 @@
+## Objetivo
+
+Esse documento tem como objetivo detalhar as ferramentas utilizadas para garantir a qualidade do projeto no decorrer de seu desenvolvimento, bem como as métricas que foram analisadas com o objetivo de definir os critérios de qualidade do projeto.
+
 ## Ferramentas
 
 ### SonarCloud
