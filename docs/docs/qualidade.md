@@ -22,7 +22,29 @@ A equipe utilizou o Jest no frontend, uma ferramenta de código aberto, para rea
 
 O ESLint é uma ferramenta muito utilizada para fazer a verificação e análise estática de código JavaScript. Ela ajuda os desenvolvedores a garantir a qualidade do código, ao encontrar e relatar possíveis problemas, erros ou práticas inadequadas de programação. O ESLint disponibiliza várias regras configuráveis, que podem ser personalizadas de acordo com as necessidades do projeto, permitindo a aplicação de padrões de codificação consistentes e melhorando a legibilidade, a manutenibilidade e a interoperabilidade do código-fonte.
 
+## Métricas de qualidade
+As métricas de qualidade definidas para o software são:
 
+| Métrica            | Descrição                                      |
+| ------------------ | ---------------------------------------------- |
+| Bugs               | Número de problemas identificados no código     |
+| Vulnerabilidades   | Quantidade de vulnerabilidades detectadas       |
+| Code Smell         | Indicadores de práticas inadequadas de código   |
+| Coverage           | Grau de cobertura dos testes no código          |
+| Duplicação         | Quantidade de linhas de código duplicadas       |
+| Linhas             | Total de linhas de código no projeto            |
+| Security Rating    | Avaliação de segurança e vulnerabilidades       |
+
+Através do uso de métricas, é possível identificar as subcaracterísticas relacionadas e avaliar a qualidade do produto. Essa avaliação fornece insights sobre a produtividade do projeto e influencia as decisões tomadas durante o desenvolvimento. Os valores mínimos aceitáveis para cada métrica do projeto foram estabelecidos com base nas métricas especificadas no SonarCloud.
+
+| Métrica            | Critério                            |
+| ------------------ | ----------------------------------- |
+| Coverage           | Pelo menos 80% de cobertura         |
+| Vulnerabilities    | Classificado como "A"               |
+| Bugs               | Classificado como "A"               |
+| Security Hotspots  | Classificado como "A"               |
+| Code Smells        | Classificado como "A"               |
+| Duplication        | Até 3.0% de duplicação de código    |
 
 
 ## Histórico de versão 
@@ -30,3 +52,5 @@ O ESLint é uma ferramenta muito utilizada para fazer a verificação e análise
 | Data       | Versão | Modificação                     | Autor         |
 | :--------- | :----- | :------------------------------ | :-----------  |
 | 09/07/2023 | 1.0    | Abertura do documento.          | João Gabriel de Matos |
+| 09/07/2023 | 1.1    | Adição das métricas             | João Gabriel de Matos |
+
