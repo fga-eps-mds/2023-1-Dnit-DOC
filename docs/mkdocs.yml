@@ -20,7 +20,8 @@ nav:
       - Documento de arquitetura: projeto/arquitetura.md
       - Identidade visual: identidadeVisual/identidadeVisual.md
       - Manual de instalação: manualInstalacao/manualInstalacao.md
-      - Plano de Qualidade: qualidade.md
+      - Documento de Qualidade: qualidade.md
+
 
   - Gestão do projeto:
       - Quadros de pareamento: gestaoDoProjeto/quadroPareamento.md
