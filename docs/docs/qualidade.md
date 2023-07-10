@@ -26,17 +26,13 @@ O ESLint é uma ferramenta muito utilizada para fazer a verificação e análise
 
 ### Verificação e validação
 
-Para garantir a qualidade do projeto, foram adotadas quatro técnicas de verificação e validação:
+Para garantir a qualidade do projeto, a equipe adotou as seguintes técnicas de verificação e validação:
 
-- Análise estática do código: A equipe utilizou o Sonar Cloud como ferramenta de análise estática de código. Essa técnica permite obter métricas mensuráveis e identificar potenciais problemas no código-fonte. O Sonar Cloud fornece informações relevantes para a gestão da qualidade do projeto, auxiliando na tomada de decisões e na identificação de pontos a serem melhorados pela equipe.
+Validações com os donos do produto: É essencial envolver os donos ou usuários do projeto na validação. Foram realizadas reuniões semanais com os POs para validar o progresso e obter feedback. Essa interação contínua ajuda a garantir que o software esteja sendo desenvolvido de acordo com as expectativas e necessidades dos stakeholders.
 
-- Testes automatizados: Foram realizados testes automatizados, incluindo testes unitários. Essa abordagem permite validar tanto os cenários esperados quanto as situações de erro. Os testes automatizados garantem o funcionamento adequado do software em diversas condições, aumentando a confiabilidade e a robustez do sistema.
+Inspeção contínua do código: A equipe optou por utilizar o Sonar Cloud como ferramenta de análise estática de código. Essa técnica permite obter métricas mensuráveis e identificar potenciais problemas no código-fonte. O Sonar Cloud fornece informações relevantes para a gestão da qualidade do projeto, auxiliando na tomada de decisões e na identificação de pontos que precisam ser aprimorados pela equipe.
 
-- Correção de Pull Requests (PRs): A equipe implementou uma prática de verificação de correção de PRs. Antes de mesclar um PR no repositório principal, algum membro de eps revisa o código, analisando a lógica, a qualidade, a conformidade com as diretrizes do projeto e identificando possíveis melhorias ou problemas. Essa verificação adicional ajuda a garantir que o código entregue esteja correto e atenda aos padrões de qualidade estabelecidos.
-
-- Validações com os Product Owners (POs) do projeto: Além das técnicas baseadas em código, é essencial envolver os donos ou usuários do projeto na validação. Reuniões semanais foram realizadas com os POs para validar o progresso e obter feedback. Essa interação contínua ajuda a garantir que o software esteja sendo desenvolvido de acordo com as expectativas e necessidades dos stakeholders.
-
-Essas quatro técnicas combinadas proporcionam uma abordagem abrangente para garantir a qualidade do projeto. Elas abordam aspectos técnicos, como a análise estática do código e os testes automatizados, além de envolver os stakeholders do projeto por meio das validações com os POs. A verificação de correção de PRs adiciona uma camada adicional de revisão, assegurando que o código entregue esteja correto e em conformidade com as diretrizes estabelecidas. Com essas práticas, busca-se alcançar uma qualidade satisfatória e atender aos requisitos do projeto.
+Revisão de PRs: Foi implementada uma prática de verificação de correção de PRs. Antes de mesclar um PR no repositório principal, algum membro da equipe de EPS revisa o código, analisando a lógica, a qualidade, a conformidade com as diretrizes do projeto e identificando possíveis melhorias ou problemas. Essa verificação adicional ajuda a garantir que o código entregue esteja correto e atenda aos padrões de qualidade estabelecidos.
 
 ## Métricas de qualidade
 
@@ -70,3 +66,4 @@ Através do uso de métricas, é possível identificar as subcaracterísticas re
 | 09/07/2023 | 1.0    | Abertura do documento.             | João Gabriel de Matos |
 | 09/07/2023 | 1.1    | Adição das métricas                | João Gabriel de Matos |
 | 09/07/2023 | 1.2    | Adição das verificação e validação | Isadora Soares        |
+| 09/07/2023 | 1.3    | Revisão do documento | Antônio Neto        |
