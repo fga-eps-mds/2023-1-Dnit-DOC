@@ -30,7 +30,7 @@ Para garantir a qualidade do projeto, foram adotadas quatro técnicas de verific
 
 - Análise estática do código: A equipe utilizou o Sonar Cloud como ferramenta de análise estática de código. Essa técnica permite obter métricas mensuráveis e identificar potenciais problemas no código-fonte. O Sonar Cloud fornece informações relevantes para a gestão da qualidade do projeto, auxiliando na tomada de decisões e na identificação de pontos a serem melhorados pela equipe.
 
-= Testes automatizados: Foram realizados testes automatizados, incluindo testes unitários. Essa abordagem permite validar tanto os cenários esperados quanto as situações de erro. Os testes automatizados garantem o funcionamento adequado do software em diversas condições, aumentando a confiabilidade e a robustez do sistema.
+- Testes automatizados: Foram realizados testes automatizados, incluindo testes unitários. Essa abordagem permite validar tanto os cenários esperados quanto as situações de erro. Os testes automatizados garantem o funcionamento adequado do software em diversas condições, aumentando a confiabilidade e a robustez do sistema.
 
 - Correção de Pull Requests (PRs): A equipe implementou uma prática de verificação de correção de PRs. Antes de mesclar um PR no repositório principal, algum membro de eps revisa o código, analisando a lógica, a qualidade, a conformidade com as diretrizes do projeto e identificando possíveis melhorias ou problemas. Essa verificação adicional ajuda a garantir que o código entregue esteja correto e atenda aos padrões de qualidade estabelecidos.
 
