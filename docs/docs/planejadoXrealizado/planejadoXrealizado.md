@@ -5,12 +5,12 @@
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
 |1.0| 08/07/2023 | Criação do documento | Antônio Neto |
-|1.1| 08/07/2023 | Adição de Custo e Risco | Antônio Neto |
+|1.1| 08/07/2023 | Adição de Custo, Risco e Qualidade | Antônio Neto |
 |1.2| 09/07/2023 | Revisão do documento | Isadora Soares |
 
 # Introdução
 
-Este documento tem como objetivo apresentar a análise comparativa entre o planejamento e a execução no desenvolvimento do projeto. Serão avaliados e comparados o Backlog com as Histórias de Usuários (US), o Custo, a Qualidade e o Risco, a fim de compreender o progresso do projeto.
+Este documento tem como objetivo apresentar a análise comparativa entre o planejamento e a execução no desenvolvimento do projeto. Serão avaliados e comparados o Backlog com as Histórias de Usuários (US), o Custo, Risco e a Qualidade, a fim de compreender o progresso do projeto.
 
 # Backlog
 
@@ -109,3 +109,29 @@ O planejamento de riscos podem ser acessado em detalhes no [plano de riscos](htt
 Dado o planejamento de riscos do projeto, podemos analisar o gráfico abaixo para entender como os riscos se evidenciaram durante o projeto. O gráfico representa cada risco com uma cor e como esses riscos se comportaram ao decorrer das Sprints.
 
 ![Risco](./assets/risco.png)
+
+# Qualidade
+
+O objetivo desta seção é apresentar uma análise comparativa entre o planejado e o realizado no que se refere a qualidade adotada para o projeto. Serão avaliadas as métricas e ferramentas utilizadas para garantir a qualidade do software desenvolvido, bem como os resultados obtidos em relação aos objetivos previamente estabelecidos.
+
+Os aspectos de qualidade podem ser acessado em detalhes no [documento de qualidade](https://fga-eps-mds.github.io/2023-1-Dnit-DOC/qualidade/) do projeto. Algumas das principais métricas para avaliar a qualidade do produto são: Bugs, Cobertura de código, Codes Smells, entre outros. Esses fatores podem ser analisados a partir das informações no Sonarcloud considerando o branch principal dos 4 repositórios do projeto:
+
+## UsuarioService
+
+![Usuario](./assets/usuarioService.png)
+
+## EscolaService
+
+![Escola](./assets/escolaService.png)
+
+## UpsService
+
+![Ups](./assets/upsService.png)
+
+## Front-end
+
+![Front](./assets/front.png)
+
+Com base nas imagens acima, podemos ter uma noção do realizado no projeto no aspecto de qualidade do produto. Os microserviços de Escola e Usuário foram aprovados nas análises do Sonarcloud considerando os novos códigos, já com o microserviço de UPS não ocorreu o mesmo devido a baixa cobertura em novos códigos, já que é o repositório mais novo do projeto. Ademais, temos o repositório do Front-end, também aprovado nas análises do Sonarcloud.
+
+Além dos fatores supracitados, temos outras métricas de qualidade explicitadas no [notebook](https://github.com/fga-eps-mds/2023-1-Dnit-DOC/blob/main/analytics.ipynb) do projeto, no qual é calculado algumas métricas baseadas no framework Qrapids.
