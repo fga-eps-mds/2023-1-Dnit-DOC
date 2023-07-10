@@ -61,97 +61,75 @@ Representa o banco de dados utilizado, no caso, o PostgreSQL.
 
 A modelagem de dados é um processo fundamental na área de gerenciamento de informações. Envolve a criação de representações estruturadas que descrevem entidades, relacionamentos e atributos dos dados, permitindo uma compreensão clara e organizada dos mesmos. Através da modelagem de dados, é possível criar diagramas que retratam de forma visual como os dados estão relacionados entre si, facilitando a análise, a tomada de decisões e o desenvolvimento de sistemas de informação eficientes.
 
-### Modelo Entidade-Relacionamento (MER)
+### ME-R (Modelo ENtidade-Relacionamento)
 
-O Modelo Entidade-Relacionamento (MER) é uma técnica de modelagem de dados amplamente utilizada na engenharia de software. Ele permite representar as entidades (objetos) de um sistema, seus atributos e relacionamentos, fornecendo uma visão estruturada e visual dos dados. O MER é composto por entidades, atributos e relacionamentos, permitindo a definição clara e precisa das informações a serem armazenadas em um banco de dados, auxiliando no desenvolvimento de sistemas e na compreensão da estrutura e interações entre os dados.
-
-### Entidades
-
-**Usuário**
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Usuário DNIT**
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Usuário Empresa**
-
-**Unidades federativas**
-
-**Empresas**
-
-**Escolas**
-
-**Visitas**
-
-**Dados para UPS**
-
-**Rankings de escolas**
-
-### Atributos
-
-**Usuário** {nome, <u>email</u>
-, senha}
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Usuário DNIT** {Unidade Federativa}
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Usuário Empresa** {Número de identificação}
-
-**Unidades federativas** {<u>id</u> , sigla, nomeUF}
-
-**Empresas** {<u>id</u>, nome, CNPJ}
-
-**Escolas** {<u>id</u>, nome, email, dados(numeroAlunos, numeroFuncionarios), endereço(UF, cidade, rua, numero), coordenandas(coordX, coordY)}
-
-**Visitas** {<u>id</u>, data, status, qtdAções(atributo derivado)}
-
-**Dados para UPS** {<u>data(ano, mes)</u>, acidentes com danos materiais, acidentes com feridos, acidentes com pedestres, acidentes com vitimas fatais, valor da UPS(atributo derivado)}
-
-**Rankings de escolas** {<u>id</u>, data(ano, mes)}
-
-### Relacionamentos 
-
-- **Usuário DNIT PERTENCE a Unidade Federativa**:
-
-Um Usuário DNIT pertence a uma Unidade Federativa (UF), e uma Unidade Federativa pode ter vários funcionários DNIT.
-
-Cardinalidade: n:1
-
-- **Usuário Empresa PERTENCE a uma Empresa**:
-
-Um Usuário Empresa pertence a uma Empresa, e uma Empresa pode ter vários funcionários Empresa.
-
-Cardinalidade: n:1
-
-- **Usuário DNIT SOLICITA Ranking de Escolas**:
-
-Um Usuário DNIT solicita vários Rankings de Escola, e um Ranking de Escola é solicitado por um Usuário DNIT.
-
-Cardinalidade: 1:n
-
-- **Usuário Empresa SOLICITA uma Visita**:
-
-Um Usuário Empresa solicita várias Visitas, e uma Visita é solicitada por um Usuário Empresa
-
-Cardinalidade: 1:n
-
-- **Visita É RECEBIDA por uma Escola**:
-
-Uma Visita é recebida por uma Escola, e uma Escola pode receber várias visitas.
-
-Cardinalidade: n:1
-
-- **Escola POSSUI Dados para UPS**:
-
-Uma Escola pode possuir vários Dados para UPS, e um conjunto de Dados para UPS é obtido por apenas uma Escola.
-
-Cardinalidade: n:1
-
-- **Dados para UPS GERA Ranking de escolas**:
-
-Vários Dados para UPS gera um Ranking de Escola, e um Ranking de Escolas é gerado por vários Dados de Escola.
-
-Cardinalidade: n:1
+#### Entidades
+    ESCOLA
+    REDE
+    PORTE
+    LOCALIZACAO
+    ETAPAS_DE_ENSINO
+    RODOVIA
+    SINISTRO
+    SITUACAO
+    UNIDADE_FEDERATIVA
+    MUNICIPIO
+    USUARIO
+    EMPRESA
+    RECUPERACAO_SENHA
 
 
-### Diagrama Entidade-Relacionamento (DER)
+#### Atributos
+    ESCOLA (<ins>id_escola</ins>, nome_escola, cep, endereco, latitude, longitude, numero_total_de_alunos, telefone, numero_total_de_docentes, id_rede, id_uf, id_municipio, id_porte, id_situacao, observacao, id_etapas_de_ensino, ultima_atualizacao)
+    REDE (<ins>id_rede</ins>, descricao_rede)
+    PORTE (<ins>id_porte</ins>, descricao_porte)
+    LOCALIZACAO (<ins>id_localizacao</ins>, descricao_localizacao)
+    ETAPAS_DE_ENSINO (<ins>id_etapas_de_ensino</ins>, descricao_etapas_de_ensino)
+    RODOVIA (<ins>id_rodovia</ins>, sigla_uf, ano_apuracao, numero_rodovia, codigo_snv, tipo_trecho, local_inicio_fim, km_inicial, km_final, extensao, superficie, federal_coincidence, estadual_coincidence, estadual_coincidence, mp082, concessao_convenio)
+    SINISTRO (<ins>id</ins>, uf, rodovia, quilometro, sentido, solo, data, tipo, causa, gravidade, feridos, mortos, ups, snv, latitude, longitude)
+    SITUACAO (<ins>id_situacao</ins>, descricao_situacao)
+    UNIDADE_FEDERATIVA (<ins>id</ins>, descricao, sigla)
+    MUNICIPIO (<ins>id_municipio</ins>, nome, id_uf)
+    USUARIO (<ins>id</ins>, nome, email, senha)
+    EMPRESA (<ins>cnpj</ins>, razao_social)
+    RECUPERACAO_SENHA (<ins>id</ins>, uuid, id_usuario)
+
+#### Relacionamentos
+    USUARIO - possui RECUPERACAO_SENHA (1:n)
+    Um USUARIO possui zero ou mais RECUPERACAO_SENHA, uma RECUPERACAO_SENHA possui um ou mais USUARIO.
+
+    USUARIO - possui - UNIDADE_FEDERATIVA (n:m)
+    Um USUARIO possui uma única UNIDADE_FEDERATIVA, uma UNIDADE_FEDERATIVA possui uma ou mais USUARIO.
+
+    USUARIO - possui - EMPRESA (n:m)
+    Um USUARIO possui uma única EMPRESA, uma EMPRESA possui uma ou mais USUARIO.
+
+    UNIDADE_FEDERATIVA - possui - MUNICIPIO (1:n)
+    Uma UNIDADE_FEDERATIVA possui um ou mais MUNICIPIO, um MUNICIPIO possui só e somente uma única UNIDADE_FEDERATIVA.
+
+    MUNICIPIO - possui - ESCOLA (0:1)
+    Um MUNICIPIO possui zero ou mais ESCOLA, uma ESCOLA possui só e somente um único MUNICIPIO.
+
+    UNIDADE_FEDERATIVA - possui - ESCOLA (0:1)
+    Um UNIDADE_FEDERATIVA possui zero ou mais ESCOLA, uma ESCOLA possui só e somente uma única UNIDADE_FEDERATIVA.
+
+    SITUACAO - possui - ESCOLA (1:n)
+    Uma SITUACAO possui uma ou mais ESCOLA, uma ESCOLA possui só e somente uma única SITUACAO.
+
+    REDE - possui - ESCOLA (1:n)
+    Uma REDE possui uma ou mais ESCOLA, uma ESCOLA possui só e somente uma única REDE.
+
+    LOCALIZACAO - possui - ESCOLA (1:n)
+    Uma LOCALIZACAO possui uma ou mais ESCOLA, uma ESCOLA possui só e somente uma única LOCALIZACAO.
+
+    PORTE - possui - ESCOLA (1:n)
+    Um PORTE possui uma ou mais ESCOLA, uma ESCOLA possui só e somente um único PORTE.
+
+    ESCOLA - possui - ETAPAS_DE_ENSINO (n:m)
+    Uma ESCOLA possui uma ou mais ETAPAS_DE_ENSINO, uma ETAPAS_DE_ENSINO possui uma ou mais ESCOLA.
+
+
+#### Diagrama Entidade-Relacionamento (DER)
 
 Um dos diagramas amplamente utilizados na modelagem de dados é o Diagrama de Entidade-Relacionamento (DER). Ele permite representar as entidades (objetos do mundo real) e seus relacionamentos em um sistema de informação. 
 
@@ -159,29 +137,13 @@ O diagrama DER é uma ferramenta valiosa para visualizar a estrutura do banco de
 
 O DER é composto por retângulos que representam as entidades, linhas que mostram as conexões entre elas, elipses que denotam os atributos das entidades e losangos que indicam o relacionamento entre duas entidades. 
 
-Foram realizados 3 versões do DER e utilizamos a últimas e mais atualizada. Veja abaixo as 3 versões dos diagramas ER feito pelo time:
-
-#### DER 1
-
-A primeira versão do DER indica apenas uma entidade para representar o funcionário. E para diferenciar um funcionário DNIT de um funcionário de uma empresa terceirizada, temos o atributo "Tipo" nessa entidade, podendo ser Tipo DNIT ou Tipo Terceirizada.
-
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F0DqIpGsir4qyuqMo7VqaWT%2FDER-1%3Ftype%3Ddesign%26node-id%3D0%253A1%26t%3DUVrFJ3WOfoowMx2q-1" allowfullscreen></iframe>
-
-#### DER 2
-
-Na segunda versão separamos o funcionário DNIT e funcionário Terceirizada em duas entidades diferentes.
-
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F5YYpopoJUVvyEG1mwS48Pk%2FDER-2%3Ftype%3Ddesign%26node-id%3D3%253A333%26t%3DMSvBIhVRs7KWjrBj-1" allowfullscreen></iframe>
-
-#### DER 3 (Atual)
-
-Na terceira versão, fazemos um especialização para o funcinário DNIT e funcionário Terceirizada. Criamos a generalização "Funcionário" que vai conter os atributos em comum, e as especializações com os atributos específicos.
-Em discussão com a equipe, concluimos que esta especialização é a melhor forma de lidar com as diferenças de dados fornecidos para os dois tipos de usuario, mantendo suas atibuições em comum.
-Este DER representa a versão mais recente.
+#### DER
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FJmNx2j4hrJsPu9zupsnamS%2FDER-3%3Ftype%3Ddesign%26node-id%3D0%253A1%26t%3DXE0Uet0nRxAAoySH-1" allowfullscreen></iframe>
 
+#### DLD
 
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F5YYpopoJUVvyEG1mwS48Pk%2FDER-2%3Ftype%3Ddesign%26node-id%3D3%253A333%26t%3DMSvBIhVRs7KWjrBj-1" allowfullscreen></iframe>
 
 ## Referências
 
