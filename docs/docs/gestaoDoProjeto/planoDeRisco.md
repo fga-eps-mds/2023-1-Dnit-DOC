@@ -7,6 +7,8 @@
 |1.1| 13/05/2023 | Levantamento dos riscos | Lucas Rodrigues |
 |1.2| 14/05/2023 | Adição da planilha de monitoramento | Lucas Rodrigues |
 |1.3| 04/06/2023 | Revisão do documento | Felipe e Yan Andrade |
+|1.4| 09/07/2023 | Adição do gráfico de área | Lucas Rodrigues |
+
 ## Introdução
 
 Os riscos de um projeto podem comprometer o seu planejamento, cronograma e custo, podendo estar relacionados a diversos fatores, como custo, tempo, pessoas, recursos, clientes, requisitos, entre outros <a href=./#referencias>¹</a>. Com o objetivo de identificar, analisar e monitorar esses riscos, foi elaborado este plano de gestão de riscos.
@@ -134,10 +136,14 @@ O acompanhamento dos riscos é essencial durante o desenvolvimento de um projeto
 
 <iframe width="700" height="760" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7s4UVvElF9pbC0jY9eKn7TW12wMgu5M2DUDaDbEdFctoYtkifFFyWUZYgIdYbDZwvNpdKdahqzvyk/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
-## Gráfico
+## Gráficos
 O gráfico abaixo mostra a pontuação total de Probabilidade x Impacto a cada sprint.
 
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7s4UVvElF9pbC0jY9eKn7TW12wMgu5M2DUDaDbEdFctoYtkifFFyWUZYgIdYbDZwvNpdKdahqzvyk/pubchart?oid=1399982651&amp;format=interactive"></iframe>
+
+O gráfico de áreas empilhadas abaixo mostra a evolução dos riscos ao longo das sprints, fornecendo uma representação visual de sua variação.
+
+<iframe width="600" height="448" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7s4UVvElF9pbC0jY9eKn7TW12wMgu5M2DUDaDbEdFctoYtkifFFyWUZYgIdYbDZwvNpdKdahqzvyk/pubchart?oid=2033773708&amp;format=interactive"></iframe>
 
 ## Referências
 
