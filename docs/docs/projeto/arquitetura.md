@@ -7,6 +7,7 @@
 |1.1| 26/05/2023 | Incluindo informações da visão de dados | Antônio Neto, João de Matos, Lucas Rodrigues |
 |1.2| 04/06/2023 | Atualização diagrama de arquitetura | Denys Rógeres |
 |1.3| 04/06/2023 | Revisão do documento e Linkando referências | Yan Andrade de Sena |
+|1.4| 09/07/2023 | Atualização documento | Yan Andrade de Sena |
 
 ## Introdução
 Este documento tem como objetivo detalhar a arquitetura do projeto, fornecendo uma visão geral da arquitetura e dos dados. Além disso são descritas as tecnologias utilizadas para o desenvolvimento.
@@ -33,7 +34,7 @@ A arquitetura organizada em microsserviços permite a construção da aplicaçã
 
 A arquitetura do projeto consiste no front-end e 3 microsserviços no back-end, sendo o primeiro para a gestão dos usuários, o segundo para a gestão das escolas e o terceiro para lidar com a agenda de treinamentos realizados pelo DNIT. Além disso, o front-end em React faz a interface com o usuário.
 
-![Diagrama de Arquitetura](../assets/arquitetura/diagramaDeArquitetura.png)
+![Diagrama de Arquitetura](../assets/arquitetura/diagrama_arquitetura_dnit.png)
 
 ### Front-end
 Responsável por fornecer a interface com o usuário.
