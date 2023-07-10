@@ -9,40 +9,38 @@ theme:
     primary: "indigo"
 nav:
   - Home: index.md
-  
+
   - Lean Inception:
-    - Visão do Produto: visaodoproduto.md
-  
+      - Visão do Produto: visaodoproduto.md
+
   - Documentos do projeto:
-    - EAP: EAP/eap.md
-    - Backlog: Backlog/backlog.md
-    - Protótipos: Prototipo/prototipo.md
-    - Documento de arquitetura: projeto/arquitetura.md
-    - Identidade visual: identidadeVisual/identidadeVisual.md
+      - EAP: EAP/eap.md
+      - Backlog: Backlog/backlog.md
+      - Protótipos: Prototipo/prototipo.md
+      - Documento de arquitetura: projeto/arquitetura.md
+      - Identidade visual: identidadeVisual/identidadeVisual.md
+      - Plano de Qualidade: qualidade.md
 
   - Gestão do projeto:
-    - Quadros de pareamento: gestaoDoProjeto/quadroPareamento.md
-    - Quadro de conhecimentos: gestaoDoProjeto/quadroConhecimento.md
-    - Plano de Riscos: gestaoDoProjeto/planoDeRisco.md
-    - Plano de Custos: gestaoDoProjeto/planoDeCusto.md
-    - Plano de Comunicação: atasDeReuniao/atasReuniao.md
-    - Gráfico de Gantt: gestaoDoProjeto/graficoGantt.md
-    
+      - Quadros de pareamento: gestaoDoProjeto/quadroPareamento.md
+      - Quadro de conhecimentos: gestaoDoProjeto/quadroConhecimento.md
+      - Plano de Riscos: gestaoDoProjeto/planoDeRisco.md
+      - Plano de Custos: gestaoDoProjeto/planoDeCusto.md
+      - Plano de Comunicação: atasDeReuniao/atasReuniao.md
+      - Gráfico de Gantt: gestaoDoProjeto/graficoGantt.md
+
   - Documentos das Sprints:
-    - Sprint 1: Sprints/Sprint_1.md
-    - Sprint 2: Sprints/Sprint_2.md
-    - Sprint 3: Sprints/Sprint_3.md
-    - Sprint 4: Sprints/Sprint_4.md
-    - Sprint 5: Sprints/Sprint_5.md
-    - Sprint 6: Sprints/Sprint_6.md
-    - Sprint 7: Sprints/Sprint_7.md
-    - Sprint 8: Sprints/Sprint_8.md
+      - Sprint 1: Sprints/Sprint_1.md
+      - Sprint 2: Sprints/Sprint_2.md
+      - Sprint 3: Sprints/Sprint_3.md
+      - Sprint 4: Sprints/Sprint_4.md
+      - Sprint 5: Sprints/Sprint_5.md
+      - Sprint 6: Sprints/Sprint_6.md
+      - Sprint 7: Sprints/Sprint_7.md
+      - Sprint 8: Sprints/Sprint_8.md
 
-  
   - Políticas do projeto:
-    - Guia de contribuição: GuiaDeContribuicao/guiaDeContribuicao.md
-    - Código de Conduta: codigoConduta/codConduta.md
-  
-
+      - Guia de contribuição: GuiaDeContribuicao/guiaDeContribuicao.md
+      - Código de Conduta: codigoConduta/codConduta.md
 
   #- Backlog: Backlog\backlog.md
