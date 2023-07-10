@@ -8,6 +8,7 @@
 |1.2| 04/06/2023 | Atualização diagrama de arquitetura | Denys Rógeres |
 |1.3| 04/06/2023 | Revisão do documento e Linkando referências | Yan Andrade de Sena |
 |1.4| 09/07/2023 | Atualização documento | Yan Andrade de Sena |
+|1.5| 10/07/2023 | Atualização documento | Denys Rogeres |
 
 ## Introdução
 Este documento tem como objetivo detalhar a arquitetura do projeto, fornecendo uma visão geral da arquitetura e dos dados. Além disso são descritas as tecnologias utilizadas para o desenvolvimento.
@@ -39,17 +40,20 @@ A arquitetura do projeto consiste no front-end e 3 microsserviços no back-end, 
 ### Front-end
 Responsável por fornecer a interface com o usuário.
 
-### Amazon API Gateway
-O Amazon API Gateway é um serviço fundamental da Amazon Web Services (AWS) que permite aos desenvolvedores criar, implantar e gerenciar APIs de forma eficiente, fornecendo uma interface poderosa para integrar aplicativos e serviços, garantindo escalabilidade, segurança, controle de tráfego e análise de desempenho.
+### UsuarioService
+Este microsserviço é reponsável pelo gerenciamento de cadastro e autenticação de usuário, tanto funcionários do DNIT quanto de empresas executoras.
 
-### Usuários
-Este microsserviço é reponsável pelo gerenciamento dos usuários cadastrados, tanto funcionários do DNIT quanto de empresas executoras.
+### EscolaService
+Este microsserviço é reponsável pelo gerenciamento das escolas cadastrados. Permitando o cadastro de escolas via planilha, de forma manual e também a exclusão e atualização de escolas.
 
-### Escolas
-Este microsserviço é reponsável pelo gerenciamento das escolas cadastrados e pela priorização dessas escolas.
+### UpsService
+Este microsserviço é reponsável pelo gerenciamento de cadastro, via planilha, de sinistros e rodovias. Além disso, o microserviço também é resposável por gerenciar o cálculo de UPS (Unidade Padrão de Severidade).
 
-### Treinamentos
-Este microsserviço é responsável pelo gerenciamento da agenda/cronograma de visitas.
+### TreinamentoService
+Este microsserviço é responsável pelo gerenciamento da agenda/cronograma de ações.
+
+### PostgreSQL
+Representa o banco de dados utilizado, no caso, o PostgreSQL.
 
 ## Visão de Dados
 
