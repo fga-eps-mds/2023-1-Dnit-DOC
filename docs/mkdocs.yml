@@ -18,9 +18,10 @@ nav:
       - Backlog: Backlog/backlog.md
       - Protótipos: Prototipo/prototipo.md
       - Documento de arquitetura: projeto/arquitetura.md
+      - Documento de qualidade: projeto/qualidade.md
       - Identidade visual: identidadeVisual/identidadeVisual.md
       - Manual de instalação: manualInstalacao/manualInstalacao.md
-      - Documento de Qualidade: qualidade.md
+      - EVM: projeto/evm.md
       - Planejado x Realizado: planejadoXrealizado/planejadoXrealizado.md
 
 

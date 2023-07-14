@@ -1,6 +1,6 @@
 ## Introdução
 
-A qualidade de software diz respeito à capacidade de um software satisfazer as necessidades e expectativas dos usuários, apresentando código confiável e de fácil manutenção. Neste documento, são apresentadas as ferramentas utilizadas para garantir a qualidade do projeto durante o seu desenvolvimento, além da análise de métricas para estabelecer critérios de qualidade. Diretrizes reconhecidas, como a ISO/IEC 25000 (SQuaRE) e a ISO/IEC 25010, oferecem orientações abrangentes para avaliar a qualidade em diversas áreas, como funcionalidade, confiabilidade, usabilidade, eficiência, segurança, manutenibilidade e portabilidade. Esses critérios são essenciais para melhorar a qualidade do software e proporcionar uma experiência positiva aos usuários.
+A qualidade de software diz respeito à capacidade de um software satisfazer as necessidades e expectativas dos usuários, apresentando código confiável e de fácil manutenção. Neste documento, são apresentadas as ferramentas utilizadas para garantir a qualidade do projeto durante o seu desenvolvimento, além da análise de métricas para estabelecer critérios de qualidade.
 
 ## Ferramentas
 
@@ -67,3 +67,4 @@ Através do uso de métricas, é possível identificar as subcaracterísticas re
 | 09/07/2023 | 1.1    | Adição das métricas                | João Gabriel de Matos |
 | 09/07/2023 | 1.2    | Adição das verificação e validação | Isadora Soares        |
 | 09/07/2023 | 1.3    | Revisão do documento | Antônio Neto        |
+| 14/07/2023 | 1.4    | Ajuste no documento a partir do feedback do professor | Antônio Neto        |
