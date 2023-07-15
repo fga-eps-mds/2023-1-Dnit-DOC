@@ -30,7 +30,7 @@ No fim, o time de EPS acredita que deveria ter melhorado o fluxo de trabalho e d
 
 ## Quais os pontos positivos da sua experiência na matéria?
 
-- participar da criação de um produto desde sua ideação, modelagem, até o desenvolvimento.
+- Participar da criação de um produto desde sua ideação, modelagem, até o desenvolvimento.
 - Aprendizado, conhecimento em gestão e tecnologias de desenvolvimento, conhecimento em qualidade do produto
 - Inovação
 - Contribuir com um projeto real
