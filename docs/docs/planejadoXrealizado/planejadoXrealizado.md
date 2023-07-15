@@ -1,13 +1,5 @@
 # Planejado X Realizado
 
-# Versionamento
-
-| Versão | Data | Modificação | Autor |
-|--|--|--|--|
-|1.0| 08/07/2023 | Criação do documento | Antônio Neto |
-|1.1| 08/07/2023 | Adição de Custo, Risco e Qualidade | Antônio Neto |
-|1.2| 09/07/2023 | Revisão do documento | Isadora Soares |
-
 # Introdução
 
 Este documento tem como objetivo apresentar a análise comparativa entre o planejamento e a execução no desenvolvimento do projeto. Serão avaliados e comparados o Backlog com as Histórias de Usuários (US), o Custo, Risco e a Qualidade, a fim de compreender o progresso do projeto.
@@ -134,4 +126,14 @@ Os aspectos de qualidade podem ser acessado em detalhes no [documento de qualida
 
 Com base nas imagens acima, podemos ter uma noção do realizado no projeto no aspecto de qualidade do produto. Os microserviços de Escola e Usuário foram aprovados nas análises do Sonarcloud considerando os novos códigos, já com o microserviço de UPS não ocorreu o mesmo devido a baixa cobertura em novos códigos, já que é o repositório mais novo do projeto. Ademais, temos o repositório do Front-end, também aprovado nas análises do Sonarcloud.
 
+É importante destacar que os valores sugeridos, como uma cobertura de código acima de 80% e uma taxa de duplicação inferior a 3%, são referências utilizadas como ponto de partida, mas podem não se adequar perfeitamente ao contexto específico do projeto em questão. Esses valores foram estabelecidos em diferentes contextos e em outra época, levando em consideração empresas distintas.
+
 Além dos fatores supracitados, temos outras métricas de qualidade explicitadas no [notebook](https://github.com/fga-eps-mds/2023-1-Dnit-DOC/blob/main/analytics.ipynb) do projeto, no qual é calculado algumas métricas baseadas no framework Qrapids.
+
+# Versionamento
+
+| Versão | Data | Modificação | Autor |
+|--|--|--|--|
+|1.0| 08/07/2023 | Criação do documento | Antônio Neto |
+|1.1| 08/07/2023 | Adição de Custo, Risco e Qualidade | Antônio Neto |
+|1.2| 14/07/2023 | Ajustes no documento com feedback do professor | Antônio Neto |
