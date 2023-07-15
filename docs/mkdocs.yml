@@ -47,4 +47,5 @@ nav:
       - Guia de contribuição: GuiaDeContribuicao/guiaDeContribuicao.md
       - Código de Conduta: codigoConduta/codConduta.md
 
+  - Postmortem: postmortem.md
   #- Backlog: Backlog\backlog.md

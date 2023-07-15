@@ -137,6 +137,24 @@ git clone https://github.com/fga-eps-mds/2023.1-Dnit-UpsService.git
 git clone https://github.com/fga-eps-mds/2023.1-Dnit-EscolaService.git
 ```
 ### Como Rodar
+
+#### Utilizando docker-compose
+
+#### Pré-requisitos
+- Docker
+- Docker-compose
+
+#### Windows 
+Rode o seguinte comando na pasta da aplicação.
+```bash
+docker-compose build && docker-compose up
+```
+
+#### Linux ou MacOS
+Rode o seguinte comando na pasta da aplicação.
+```bash
+sudo docker-compose build && sudo docker-compose up
+```
 #### Usando Visual Studio
 
 Para rodar uma aplicação usando Visual Studio, basta clicar no arquivo com extenção 'sln' e em seguida clicar no ícone para rodar aplicação conforme mostra abaixo:
@@ -168,3 +186,4 @@ No terminal em que a aplicação esta rodando, digite simultaneamente as teclas 
 | 1.0    | 08/07/2023 | Abertura do documento e instruções para o frontend.         | João Gabriel de Matos |
 | 1.1    | 08/07/2023 | Incio do manual dos microserviços.                          | João Gabriel de Matos |
 | 1.2    | 09/07/2023 | Atualização documento, detalhando itens para microserviços  | Denys Rógeres         |
+| 1.3    | 14/07/2023 | Atulizando tutorial para incluir docker-compose  | Denys Rógeres         |
