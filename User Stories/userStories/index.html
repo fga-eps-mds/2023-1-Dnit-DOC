@@ -1,0 +1,1322 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
+    
+    
+      
+        <title>User Stories - Documentação Dnit</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.26e3688c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ecc896b0.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#user-stories" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Documentação Dnit" class="md-header__button md-logo" aria-label="Documentação Dnit" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentação Dnit
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              User Stories
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../visaodoproduto/" class="md-tabs__link">
+        Lean Inception
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../EAP/eap/" class="md-tabs__link">
+        Documentos do projeto
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../gestaoDoProjeto/quadroPareamento/" class="md-tabs__link">
+        Gestão do projeto
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Sprints/Sprint_1/" class="md-tabs__link">
+        Documentos das Sprints
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../GuiaDeContribuicao/guiaDeContribuicao/" class="md-tabs__link">
+        Políticas do projeto
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../postmortem/" class="md-tabs__link">
+      Postmortem
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Documentação Dnit" class="md-nav__button md-logo" aria-label="Documentação Dnit" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Documentação Dnit
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          Lean Inception
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Lean Inception
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../visaodoproduto/" class="md-nav__link">
+        Visão do Produto
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          Documentos do projeto
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Documentos do projeto
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EAP/eap/" class="md-nav__link">
+        EAP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Backlog/backlog/" class="md-nav__link">
+        Backlog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Prototipo/prototipo/" class="md-nav__link">
+        Protótipos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projeto/arquitetura/" class="md-nav__link">
+        Documento de arquitetura
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projeto/qualidade/" class="md-nav__link">
+        Documento de qualidade
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../identidadeVisual/identidadeVisual/" class="md-nav__link">
+        Identidade visual
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manualInstalacao/manualInstalacao/" class="md-nav__link">
+        Manual de instalação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projeto/evm/" class="md-nav__link">
+        EVM
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejadoXrealizado/planejadoXrealizado/" class="md-nav__link">
+        Planejado x Realizado
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          Gestão do projeto
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Gestão do projeto
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestaoDoProjeto/quadroPareamento/" class="md-nav__link">
+        Quadros de pareamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestaoDoProjeto/quadroConhecimento/" class="md-nav__link">
+        Quadro de conhecimentos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestaoDoProjeto/planoDeRisco/" class="md-nav__link">
+        Plano de Riscos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestaoDoProjeto/planoDeCusto/" class="md-nav__link">
+        Plano de Custos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atasDeReuniao/atasReuniao/" class="md-nav__link">
+        Plano de Comunicação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestaoDoProjeto/graficoGantt/" class="md-nav__link">
+        Gráfico de Gantt
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          Documentos das Sprints
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Documentos das Sprints
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint_1/" class="md-nav__link">
+        Sprint 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint_2/" class="md-nav__link">
+        Sprint 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint_3/" class="md-nav__link">
+        Sprint 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint_4/" class="md-nav__link">
+        Sprint 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint_5/" class="md-nav__link">
+        Sprint 5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint_6/" class="md-nav__link">
+        Sprint 6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint_7/" class="md-nav__link">
+        Sprint 7
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint_8/" class="md-nav__link">
+        Sprint 8
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          Políticas do projeto
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Políticas do projeto
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../GuiaDeContribuicao/guiaDeContribuicao/" class="md-nav__link">
+        Guia de contribuição
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../codigoConduta/codConduta/" class="md-nav__link">
+        Código de Conduta
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../postmortem/" class="md-nav__link">
+        Postmortem
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-funcionais" class="md-nav__link">
+    Requisitos Funcionais
+  </a>
+  
+    <nav class="md-nav" aria-label="Requisitos Funcionais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funcionalidade-login" class="md-nav__link">
+    Funcionalidade: Login
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#funcionalidade-cadastro" class="md-nav__link">
+    Funcionalidade: Cadastro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#funcionalidade-importar-dados-das-escolas-de-outros-dbs" class="md-nav__link">
+    Funcionalidade: Importar dados das escolas de outros DBs
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#funcionalidade-analise-de-prioridade-das-escolas" class="md-nav__link">
+    Funcionalidade: Análise de prioridade das escolas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#funcionalidade-formulario-de-solicitacao-para-escolas" class="md-nav__link">
+    Funcionalidade: Formulário de solicitação para escolas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#funcionalidade-validacao-de-dados-da-escola" class="md-nav__link">
+    Funcionalidade: Validação de dados da escola
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#funcionalidade-gerar-agenda-baseada-em-escolas-priorizadas" class="md-nav__link">
+    Funcionalidade: Gerar agenda baseada em escolas priorizadas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#funcionalidade-solicitar-agendamento-para-a-escola" class="md-nav__link">
+    Funcionalidade: Solicitar agendamento para a escola
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#funcionalidade-verificacao-de-agenda-dnit" class="md-nav__link">
+    Funcionalidade: Verificação de Agenda DNIT
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-nao-funcionais" class="md-nav__link">
+    Requisitos não funcionais:
+  </a>
+  
+    <nav class="md-nav" aria-label="Requisitos não funcionais:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funcionalidade-calculo-de-ups" class="md-nav__link">
+    Funcionalidade: Cálculo de UPS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="user-stories">User Stories</h1>
+<h2 id="versionamento">Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data</th>
+<th>Modificação</th>
+<th>Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>07/05/2023</td>
+<td>Criação do documento</td>
+<td>Equipe de EPS</td>
+</tr>
+</tbody>
+</table>
+<h2 id="requisitos-funcionais">Requisitos Funcionais</h2>
+<h3 id="funcionalidade-login"><strong>Funcionalidade:</strong> Login</h3>
+<p><strong>US01:</strong> Como usuário, eu gostaria de fazer login no aplicativo para poder acessar as funcionalidades personalizadas e as informações da minha conta.</p>
+<p><strong>Critérios de aceitação:</strong>
+- A tela de login deve conter os campos de email e senha.</p>
+<ul>
+<li>
+<p>O sistema deve validar se o email e senha inseridos são válidos e correspondem a um usuário existente no sistema.</p>
+</li>
+<li>
+<p>Se o email e senha forem válidos, o sistema deve redirecionar o usuário para a página principal do sistema.</p>
+</li>
+<li>
+<p>Se o email e/ou senha forem inválidos, o sistema deve exibir uma mensagem de erro indicando que as credenciais estão incorretas.</p>
+</li>
+</ul>
+<h3 id="funcionalidade-cadastro"><strong>Funcionalidade:</strong> Cadastro</h3>
+<p><strong>Us02:</strong> Como um usuário não registrado, eu gostaria de criar uma conta para poder acessar as funcionalidades do aplicativo.</p>
+<p><strong>Critérios de aceitação:</strong>
+- A página de cadastro de funcionário DNIT deve incluir campos obrigatórios para nome completo, endereço de e-mail, matrícula, cargo e senha;</p>
+<ul>
+<li>
+<p>O endereço de e-mail deve ser válido e único, não podendo ser usado por mais de uma conta;</p>
+</li>
+<li>
+<p>O usuário deve ser capaz de fazer login após o cadastro usando o nome de usuário e senha informados;</p>
+</li>
+</ul>
+<h3 id="funcionalidade-importar-dados-das-escolas-de-outros-dbs"><strong>Funcionalidade:</strong> Importar dados das escolas de outros DBs</h3>
+<p><strong>US03:</strong> Eu como usuário do sistema, quero receber dados das escolas de outras bases de dados, para que eu possa me informar sobre os dados das escolas.</p>
+<p><strong>Critérios de aceitação:</strong>
+- Os dados das escolas devem vir da base de dados do INEP (mesma do Conexão DNIT)</p>
+<ul>
+<li>O acesso aos dados da escola seria apenas para o usuário do DNIT</li>
+</ul>
+<h3 id="funcionalidade-analise-de-prioridade-das-escolas"><strong>Funcionalidade:</strong> Análise de prioridade das escolas</h3>
+<p><strong>US04:</strong> Eu como administrador DNIT, quero que o sistema faça uma ranking das escolas de acordo com sua prioridade, para avaliar a necessidade de realizar uma ação nas escolas.</p>
+<p><strong>Critérios de aceitação:</strong>
+- As escolas devem ser priorizadas com base no cálculo de UPS</p>
+<ul>
+<li>
+<p>A escola mais prioritária deve estar em primeiro lugar no ranking, a segunda em segundo e assim por diante.</p>
+</li>
+<li>
+<p>O acesso a lista de escolas priorizadas seria apenas para o usuário do DNIT</p>
+</li>
+<li>
+<p>Deve haver opções de filtros (por local, por quantidade de escolas na lista)</p>
+</li>
+</ul>
+<h3 id="funcionalidade-formulario-de-solicitacao-para-escolas"><strong>Funcionalidade:</strong> Formulário de solicitação para escolas</h3>
+<p><strong>US05:</strong> Como funcionário de uma escola, quero ser capaz de solicitar uma visita de educação de trânsito através de um formulário, para que meus alunos possam aprender sobre as leis e práticas seguras de trânsito.</p>
+<p><strong>Critérios de aceitação:</strong>
+- O formulário de solicitação deve ser acessível através de uma página no site.</p>
+<ul>
+<li>
+<p>O formulário deve incluir campos para o nome da escola, endereço, telefone, e-mail de contato do diretor responsável e motivo da solicitação.</p>
+</li>
+<li>
+<p>O formulário deve incluir um campo para informar o número de alunos que participarão da visita.</p>
+</li>
+<li>
+<p>O formulário deve incluir um campo para informar a idade dos alunos que participarão da visita.</p>
+</li>
+<li>
+<p>Após o preenchimento do formulário, o funcionário da escola deve receber uma confirmação por e-mail de que sua solicitação foi recebida.</p>
+</li>
+<li>
+<p>A equipe DNIT deve receber uma notificação no sistema da nova solicitação, incluindo o formulário.</p>
+</li>
+<li>
+<p>As informações da visita devem ser armazenadas no sistema e estar disponíveis para consulta posterior.</p>
+</li>
+</ul>
+<h3 id="funcionalidade-validacao-de-dados-da-escola"><strong>Funcionalidade:</strong> Validação de dados da escola</h3>
+<p><strong>US06:</strong> Eu, como funcionário da escola, desejo validar os dados da minha escola, para confirmar se os dados estão corretos antes de enviar o formulário de solicitação de visita.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>
+<p>Deve ser apresentada uma tela de confirmação dos dados após o preenchimento do formulário de solicitação</p>
+</li>
+<li>
+<p>Deve haver um botão para confirmar e enviar o formulário</p>
+</li>
+</ul>
+<h3 id="funcionalidade-gerar-agenda-baseada-em-escolas-priorizadas"><strong>Funcionalidade:</strong> Gerar agenda baseada em escolas priorizadas</h3>
+<p><strong>US07:</strong> Eu, como diretor da sede do DNIT, gostaria de alterar as regras de priorização, para gerar agendas baseadas em diferentes prioridades.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>
+<p>Essa funcionalidade deve estar disponível apenas para o funcionário da SEDE do DNIT</p>
+</li>
+<li>
+<p>Deve ser possível adicionar/remover as regras de priorização disponíveis</p>
+</li>
+<li>
+<p>Ao alterar as regras de priorização, o sistema gera uma nova lista</p>
+</li>
+</ul>
+<p><strong>US08:</strong> Eu, como diretor da sede do DNIT, gostaria de gerar uma agenda baseada nas escolas priorizadas, para agendar as visitas de um determinado período.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>
+<p>Essa funcionalidade deve estar disponível apenas para o funcionário da SEDE do DNIT</p>
+</li>
+<li>
+<p>Deve ser possível adicionar/remover as regras de priorização disponíveis</p>
+</li>
+</ul>
+<p><strong>US09</strong> Eu, como diretor da sede do DNIT, gostaria de informar sobre a aprovação do cronograma, para decidir sobre o envio para a unidade responsável.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>
+<p>Após a aprovação do cronograma, gera-se uma nova solicitação de visita para cada escola no cronograma</p>
+</li>
+<li>
+<p>O cronograma deve ser exibido ao usuário da sede DNIT para ser feita a aprovação</p>
+</li>
+<li>
+<p>Essa funcionalidade deve estar disponível apenas para o funcionário da SEDE do DNIT</p>
+</li>
+</ul>
+<h3 id="funcionalidade-solicitar-agendamento-para-a-escola"><strong>Funcionalidade:</strong> Solicitar agendamento para a escola</h3>
+<p><strong>US10:</strong> Eu, como administrador do DNIT, gostaria de solicitar uma visita à uma escola, para notificar a escola sobre o interesse na realização de uma ação.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>
+<p>Deve haver um botão para enviar a solicitação.</p>
+</li>
+<li>
+<p>A solicitação deve ser enviada por email para a escola.</p>
+</li>
+<li>
+<p>O administrador deve ser capaz de adicionar informações sobre a ação de educação de trânsito que será realizada durante a visita.</p>
+</li>
+<li>
+<p>O sistema deve permitir que o administrador especifique a data e horário desejados para a visita.</p>
+</li>
+</ul>
+<p><strong>US11:</strong> Eu, como administrador do DNIT, desejo receber um email com a decisão da escola sobre a visita, para ser notificado sobre a decisão da escola.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>
+<p>O sistema deve permitir que o administrador acompanhe o status da solicitação (pendente, confirmada, cancelada, etc.).</p>
+</li>
+<li>
+<p>O e-mail deve conter as informações relevantes, como nome da escola, data da visita solicitada, decisão da escola e qualquer outro detalhe relevante.</p>
+</li>
+</ul>
+<p><strong>US12:</strong> Eu, como funcionário da escola, gostaria de receber um email quando uma visita for solicitada à minha escola, para que seja notificado da necessidade de uma ação.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>No email deve haver o link direcionando para maiores informações sobre o projeto no sistema Educa-DNIT</li>
+</ul>
+<p><strong>US13:</strong> Eu, como funcionário da escola, gostaria de confirmar ou recusar a realização de uma ação na minha escola, para informar o DNIT sobre a minha decisão.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>
+<p>A confirmação/recusa deve ocorrer dentro do sistema</p>
+</li>
+<li>
+<p>Deve haver um link no email direcionando para o sistema para confirmar ou recusar</p>
+</li>
+<li>
+<p>O funcionário da escola deve ser capaz de visualizar as informações da visita solicitada, incluindo a data e hora propostas no sistema</p>
+</li>
+<li>
+<p>Se a opção de recusa for selecionada, o funcionário da escola deve ser capaz de inserir um motivo para a recusa</p>
+</li>
+<li>
+<p>O sistema deve enviar automaticamente um email para o DNIT com a decisão da escola, incluindo o motivo da recusa, se aplicável</p>
+</li>
+</ul>
+<h3 id="funcionalidade-verificacao-de-agenda-dnit">Funcionalidade: Verificação de Agenda DNIT</h3>
+<p><strong>US14:</strong> Eu como usuário funcionário do DNIT gostaria de verificar a agenda do DNIT com horários disponíveis, para saber quando terei disponibilidade para realizar as ações.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>
+<p>O sistema deve fornecer um calendário Outlook com os horários disponíveis para a realização das ações de educação de trânsito</p>
+</li>
+<li>
+<p>O calendário deve mostrar os dias e horários em que os funcionários do DNIT estão disponíveis para realizar as ações nas escolas</p>
+</li>
+</ul>
+<p><strong>US15:</strong> Eu como usuário funcionário do DNIT gostaria de atualizar eventos na agenda, para manter a agenda atualizada.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>
+<p>O sistema deve permitir que o usuário selecione o horário desejado e o agende para a realização da ação na escola selecionada.</p>
+</li>
+<li>
+<p>O sistema deve permitir que o usuário desmarque um evento na agenda.</p>
+</li>
+<li>
+<p>O sistema deve permitir que o usuário edite um evento na agenda.</p>
+</li>
+</ul>
+<p><strong>US16:</strong> Eu como usuário funcionário da escola gostaria de solicitar o cancelamento de uma visita e receber uma resposta, para me organizar em casos de imprevistos que impeçam a visita na escola.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>
+<p>O funcionário da escola deve entrar no sistema para cancelar o evento</p>
+</li>
+<li>
+<p>O sistema vai enviar um link de acesso temporário para a escola por email</p>
+</li>
+<li>
+<p>Pelo link temporário vai ser realizado cancelamento no sistema</p>
+</li>
+<li>
+<p>O sistema deve solicitar a justificativa do cancelamento</p>
+</li>
+<li>
+<p>Na lista de escolas priorizadas deve-se indicar as escolas que cancelaram. ***</p>
+</li>
+<li>
+<p>Ao ser cancelado o evento, o sistema envia um email indicando que o cancelamento foi registrado</p>
+</li>
+</ul>
+<p><strong>US17:</strong> Eu como usuário funcionário da escola gostaria de solicitar o reagendamento de uma visita.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>
+<p>O funcionário da escola deve entrar no sistema para reagendar a visita</p>
+</li>
+<li>
+<p>O sistema vai enviar um link de acesso temporário para a escola por email</p>
+</li>
+<li>
+<p>Pelo link temporário vai ser solicitado o reagendamento da visita no sistema</p>
+</li>
+<li>
+<p>O sistema deve solicitar a justificativa do reagendamento</p>
+</li>
+<li>
+<p>Na lista de escolas priorizadas deve-se indicar as escolas que solicitaram reagendamento</p>
+</li>
+<li>
+<p>Ao ser solicitado o reagendamento, o sistema envia um email indicando que a solicitação foi recebida</p>
+</li>
+</ul>
+<h2 id="requisitos-nao-funcionais">Requisitos não funcionais:</h2>
+<h3 id="funcionalidade-calculo-de-ups"><strong>Funcionalidade:</strong> Cálculo de UPS</h3>
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+    
+  </body>
+</html>

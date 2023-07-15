@@ -1,0 +1,1176 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../projeto/evm/">
+      
+      
+        <link rel="next" href="../../gestaoDoProjeto/quadroPareamento/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
+    
+    
+      
+        <title>Planejado x Realizado - Documentação Dnit</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.26e3688c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ecc896b0.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#planejado-x-realizado" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Documentação Dnit" class="md-header__button md-logo" aria-label="Documentação Dnit" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentação Dnit
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Planejado x Realizado
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../visaodoproduto/" class="md-tabs__link">
+        Lean Inception
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../EAP/eap/" class="md-tabs__link md-tabs__link--active">
+        Documentos do projeto
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../gestaoDoProjeto/quadroPareamento/" class="md-tabs__link">
+        Gestão do projeto
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Sprints/Sprint_1/" class="md-tabs__link">
+        Documentos das Sprints
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../GuiaDeContribuicao/guiaDeContribuicao/" class="md-tabs__link">
+        Políticas do projeto
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../postmortem/" class="md-tabs__link">
+      Postmortem
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Documentação Dnit" class="md-nav__button md-logo" aria-label="Documentação Dnit" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Documentação Dnit
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          Lean Inception
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Lean Inception
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../visaodoproduto/" class="md-nav__link">
+        Visão do Produto
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          Documentos do projeto
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Documentos do projeto
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EAP/eap/" class="md-nav__link">
+        EAP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Backlog/backlog/" class="md-nav__link">
+        Backlog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Prototipo/prototipo/" class="md-nav__link">
+        Protótipos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projeto/arquitetura/" class="md-nav__link">
+        Documento de arquitetura
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projeto/qualidade/" class="md-nav__link">
+        Documento de qualidade
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../identidadeVisual/identidadeVisual/" class="md-nav__link">
+        Identidade visual
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manualInstalacao/manualInstalacao/" class="md-nav__link">
+        Manual de instalação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projeto/evm/" class="md-nav__link">
+        EVM
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Planejado x Realizado
+      </a>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          Gestão do projeto
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Gestão do projeto
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestaoDoProjeto/quadroPareamento/" class="md-nav__link">
+        Quadros de pareamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestaoDoProjeto/quadroConhecimento/" class="md-nav__link">
+        Quadro de conhecimentos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestaoDoProjeto/planoDeRisco/" class="md-nav__link">
+        Plano de Riscos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestaoDoProjeto/planoDeCusto/" class="md-nav__link">
+        Plano de Custos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atasDeReuniao/atasReuniao/" class="md-nav__link">
+        Plano de Comunicação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestaoDoProjeto/graficoGantt/" class="md-nav__link">
+        Gráfico de Gantt
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          Documentos das Sprints
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Documentos das Sprints
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint_1/" class="md-nav__link">
+        Sprint 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint_2/" class="md-nav__link">
+        Sprint 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint_3/" class="md-nav__link">
+        Sprint 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint_4/" class="md-nav__link">
+        Sprint 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint_5/" class="md-nav__link">
+        Sprint 5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint_6/" class="md-nav__link">
+        Sprint 6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint_7/" class="md-nav__link">
+        Sprint 7
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint_8/" class="md-nav__link">
+        Sprint 8
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          Políticas do projeto
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Políticas do projeto
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../GuiaDeContribuicao/guiaDeContribuicao/" class="md-nav__link">
+        Guia de contribuição
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../codigoConduta/codConduta/" class="md-nav__link">
+        Código de Conduta
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../postmortem/" class="md-nav__link">
+        Postmortem
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="planejado-x-realizado">Planejado X Realizado</h1>
+<h1 id="introducao">Introdução</h1>
+<p>Este documento tem como objetivo apresentar a análise comparativa entre o planejamento e a execução no desenvolvimento do projeto. Serão avaliados e comparados o Backlog com as Histórias de Usuários (US), o Custo, Risco e a Qualidade, a fim de compreender o progresso do projeto.</p>
+<h1 id="backlog">Backlog</h1>
+<p>O Backlog do projeto pode ser acessado em detalhes no <a href="https://github.com/orgs/fga-eps-mds/projects/9">Github Projects</a>.</p>
+<h2 id="planejado">Planejado</h2>
+<ul>
+<li>US01</li>
+<li>US02</li>
+<li>US04</li>
+<li>US05</li>
+<li>US06</li>
+<li>US07</li>
+<li>US08</li>
+<li>US09</li>
+<li>US10</li>
+<li>US11</li>
+<li>US12</li>
+</ul>
+<h2 id="realizado">Realizado</h2>
+<ul>
+<li>US01</li>
+<li>US02</li>
+<li>US04</li>
+<li>US05</li>
+<li>US06</li>
+<li>US07</li>
+<li>US08</li>
+<li>US12</li>
+<li><strong>US13</strong></li>
+<li><strong>US14</strong></li>
+<li><strong>US15</strong></li>
+<li><strong>US19</strong></li>
+<li><strong>US20</strong></li>
+</ul>
+<h2 id="analise">Análise</h2>
+<p>Ao comparar o Backlog planejado pelo realizado, podemos notar uma diferença em relação a uma parte das User Stories (em negrito).</p>
+<p>O Backlog inicialmente planejado para o projeto contemplava as funcionalidades como Login/Cadastro (US01, US02 e US04), Gerenciamento de escolas e situação, Importação de dados de escola por planilha (US06, US07 e US08), Solicitação de ação ao DNIT (US12), e também a parte de Automação do processo de priorizações de escolas (US09, US10 e US11). </p>
+<p>No entanto essa última funcionalidade envolvendo priorização de escolas não pôde ser realizada no tempo estipulado para o projeto. Isso ocorreu porque, ao decorrer do projeto, percebemos que essa funcionalidade é dependente do valor de UPS da escola, e o cálculo de UPS estava previsto para ser feito em outra funcionalidade do Backlog, representadas pelas User Stories 13, 14 e 15. </p>
+<p>Vale ressaltar que a funcionalidade de Automação de priorização de escolas havia sido projetada no Backlog inicial porque construímos esse planejamento considerando o valor de UPS já calculado e inserido no momento de cadastro de escolas. Porém, após um dos PO's voltar de férias, foi trago uma nova visão do produto que estava sendo desenvolvido, elucidando essa questão do cálculo de UPS, que na visão dele, deveria ser automatizado assim como a priorização de escolas, agragando mais valor ao produto.</p>
+<p>Com a colocação desse PO, tivemos que adaptar nosso planejamento para primeiro automatizar o Cálculo de UPS, e depois seria realizado a Automação de priorização de escolas, no entanto essa última funcionalidade foi retirada do planejamento devido ao deadline do projeto.</p>
+<p>Ademais, as US19 e US20 são duas histórias de usuários simples que surgiram a partir da necessidade de uma melhor navegabilidade para o usuário, adicionando uma tela de Dashboard, oferecendo acesso para todas funcionalidades desenvolvidas e uma tela HomePage que apresenta informações do projeto para o usuário.</p>
+<h1 id="custo">Custo</h1>
+<p>Esta seção representa a comparação entre o planejamento e a execução do projeto, focando especificamente no aspecto do custo. Aqui, são analisados e confrontados os custos estimados e os custos reais, buscando identificar as diferenças dentre esses dois aspectos.</p>
+<p>O planejamento de custos do projeto em mais detalhes pode ser acessado no <a href="https://fga-eps-mds.github.io/2023-1-Dnit-DOC/gestaoDoProjeto/planoDeCusto/">plano de custos</a>. A projeção de custo é feita com base no custo de cada integrante, custo de internet e energia ao longo da duração do projeto. Além do custo de equipamentos considerando a primeira sprint.</p>
+<p><img alt="CustoPlano" src="../assets/custoPlano.png" /></p>
+<p>Na imagem acima podemos ver uma comparação do planejamento e o executado considerando o custo. O custo planejado é representado pelo campo Valor Planejado por Release (PV) e o custo realizado é representado pelo campo Valor Agregado por Release (EV), ambas informações retiradas do EVM do projeto. A primeira linha refere-se à Release 1, a segunda à Release 2 e a terceira à Release 3.</p>
+<p><img alt="Custo" src="../assets/custoEVM.png" /></p>
+<p>Devido ao custo dos equipamentos, podemos notar um custo mais alto na Release 1, totalizando R$ 112.124,10. os quais foram totalmente realizados.</p>
+<p>Na release 2 foi planejado um custo de R$43.684,36, e foi realizado um valor de R$37.443,73 devido a alguns ajustes que ficaram pendentes em relação as atividades dessa Release.</p>
+<p>Já na Release 3 (Final) foi planejado um custo de R$17.473,74 e realizado esse valor no custo executado.</p>
+<p>Ao comparar o custo planejado com o custo realizado, é possível identificar e analisar a eficiência da estimativa do custo em relação ao executado. Essa análise permite termos noção do aspecto de custo de execução do projeto ao longo de alguns meses.</p>
+<h1 id="risco">Risco</h1>
+<p>O risco planejado envolve a identificação e avaliação de potenciais eventos incertos que podem afetar negativamente um projeto. Já os riscos efetivamente ocorridos são aqueles que de fato se manifestaram durante a execução do projeto, trazendo impactos reais e exigindo ação imediata. Ao analisar os riscos planejados e os efetivamente ocorridos, é possível ajustar estratégias de mitigação, tomar decisões informadas e melhorar a capacidade de gerenciar riscos futuros.</p>
+<p>O planejamento de riscos podem ser acessado em detalhes no <a href="https://fga-eps-mds.github.io/2023-1-Dnit-DOC/gestaoDoProjeto/planoDeRisco/">plano de riscos</a> do projeto. Ele pode ser resumido com a tabela abaixo que indica o planejamento para cada potencial risco identificado no projeto.</p>
+<table>
+<thead>
+<tr>
+<th align="center">Risco</th>
+<th align="left">Descrição</th>
+<th align="center">Prevenção</th>
+<th align="center">Ação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">R01</td>
+<td align="left">Dificuldade com as tecnologias definidas</td>
+<td align="center">Realização de treinamentos</td>
+<td align="center">Programação em pares para compartilhar o conhecimento</td>
+</tr>
+<tr>
+<td align="center">R02</td>
+<td align="left">Saída de algum integrante do projeto</td>
+<td align="center">Manter todos motivados e organizar a grade horária</td>
+<td align="center">Reavaliar a distribuição e o planejamento das atividades do projeto</td>
+</tr>
+<tr>
+<td align="center">R03</td>
+<td align="left">Falta de participação de algum integrante do projeto</td>
+<td align="center">Manter todos os integrantes ativos e motivados</td>
+<td align="center">Compreender o problema que o integrante está tendo e ajudá-lo</td>
+</tr>
+<tr>
+<td align="center">R04</td>
+<td align="left">Falta de integração da equipe</td>
+<td align="center">Participação de todos nas reuniões da sprint</td>
+<td align="center">Remarcar data e horário das reuniões</td>
+</tr>
+<tr>
+<td align="center">R05</td>
+<td align="left">Atraso na disponibilização de documentação / funcionalidades</td>
+<td align="center">Planejamento realista da sprint e das estimativas</td>
+<td align="center">Reavaliar as atividades e estimativas para a sprint</td>
+</tr>
+<tr>
+<td align="center">R06</td>
+<td align="left">Divergência nos horários disponíveis dos integrantes</td>
+<td align="center">Elaboração de uma planilha de horários</td>
+<td align="center">Definição de pares para a realização das atividades</td>
+</tr>
+<tr>
+<td align="center">R07</td>
+<td align="left">Indisponibilidade de plataforma de comunicação definida</td>
+<td align="center">-</td>
+<td align="center">Comunicar por meio das outras plataformas planejadas</td>
+</tr>
+<tr>
+<td align="center">R08</td>
+<td align="left">Definição problemática da arquitetura</td>
+<td align="center">Definir de acordo com as necessidades do cliente e o escopo do projeto</td>
+<td align="center">Repensar a arquitetura e tecnologias definidas</td>
+</tr>
+<tr>
+<td align="center">R09</td>
+<td align="left">Alteração no escopo do projeto</td>
+<td align="center">Desenvolver uma visão precisa do produto</td>
+<td align="center">Atualizar os requisitos e o escopo do projeto</td>
+</tr>
+<tr>
+<td align="center">R10</td>
+<td align="left">Integrante com problema de saúde</td>
+<td align="center">Seguir as recomendações de saúde</td>
+<td align="center">Reavaliar distribuição das tarefas</td>
+</tr>
+<tr>
+<td align="center">R11</td>
+<td align="left">Indisponibilidade do cliente</td>
+<td align="center">Entrar em acordo sobre data e horário das reuniões</td>
+<td align="center">Solicitar ao cliente reagendamento da reunião</td>
+</tr>
+<tr>
+<td align="center">R12</td>
+<td align="left">Baixa qualidade do código fonte</td>
+<td align="center">Alta cobertura de testes e lint</td>
+<td align="center">Identificar quais componentes estão reduzindo a qualidade e refatorá-los</td>
+</tr>
+<tr>
+<td align="center">R13</td>
+<td align="left">Falta de disponibilização de releases para o cliente testar</td>
+<td align="center">Preparar o ambiente para o cliente testar com antecedência</td>
+<td align="center">Reavaliar o processo de disponibilização do ambiente</td>
+</tr>
+<tr>
+<td align="center">R14</td>
+<td align="left">Falta de concentração durante as reuniões</td>
+<td align="center">Definir pauta e duração da reunião</td>
+<td align="center">Marcar algumas reuniões presenciais</td>
+</tr>
+<tr>
+<td align="center">R15</td>
+<td align="left">Membro da equipe sobrecarregado</td>
+<td align="center">Divisão equivalente das tarefas entre os integrantes</td>
+<td align="center">Reavaliar a distribuição das tarefas</td>
+</tr>
+<tr>
+<td align="center">R16</td>
+<td align="left">Falha de equipamento</td>
+<td align="center">Realizar manutenção periódica do equipamento</td>
+<td align="center">Providenciar conserto ou comprar novo equipamento</td>
+</tr>
+<tr>
+<td align="center">R17</td>
+<td align="left">Dependência entre atividades</td>
+<td align="center">Elaborar priorização correta das atividades</td>
+<td align="center">Rever priorização das atividades</td>
+</tr>
+</tbody>
+</table>
+<p>Dado o planejamento de riscos do projeto, podemos analisar o gráfico abaixo para entender como os riscos se evidenciaram durante o projeto. O gráfico representa cada risco com uma cor e como esses riscos se comportaram ao decorrer das Sprints.</p>
+<p><img alt="Risco" src="../assets/risco.png" /></p>
+<h1 id="qualidade">Qualidade</h1>
+<p>O objetivo desta seção é apresentar uma análise comparativa entre o planejado e o realizado no que se refere a qualidade adotada para o projeto. Serão avaliadas as métricas e ferramentas utilizadas para garantir a qualidade do software desenvolvido, bem como os resultados obtidos em relação aos objetivos previamente estabelecidos.</p>
+<p>Os aspectos de qualidade podem ser acessado em detalhes no <a href="https://fga-eps-mds.github.io/2023-1-Dnit-DOC/qualidade/">documento de qualidade</a> do projeto. Algumas das principais métricas para avaliar a qualidade do produto são: Bugs, Cobertura de código, Codes Smells, entre outros. Esses fatores podem ser analisados a partir das informações no Sonarcloud considerando o branch principal dos 4 repositórios do projeto:</p>
+<h2 id="usuarioservice">UsuarioService</h2>
+<p><img alt="Usuario" src="../assets/usuarioService.png" /></p>
+<h2 id="escolaservice">EscolaService</h2>
+<p><img alt="Escola" src="../assets/escolaService.png" /></p>
+<h2 id="upsservice">UpsService</h2>
+<p><img alt="Ups" src="../assets/upsService.png" /></p>
+<h2 id="front-end">Front-end</h2>
+<p><img alt="Front" src="../assets/front.png" /></p>
+<p>Com base nas imagens acima, podemos ter uma noção do realizado no projeto no aspecto de qualidade do produto. Os microserviços de Escola e Usuário foram aprovados nas análises do Sonarcloud considerando os novos códigos, já com o microserviço de UPS não ocorreu o mesmo devido a baixa cobertura em novos códigos, já que é o repositório mais novo do projeto. Ademais, temos o repositório do Front-end, também aprovado nas análises do Sonarcloud.</p>
+<p>É importante destacar que os valores sugeridos, como uma cobertura de código acima de 80% e uma taxa de duplicação inferior a 3%, são referências utilizadas como ponto de partida, mas podem não se adequar perfeitamente ao contexto específico do projeto em questão. Esses valores foram estabelecidos em diferentes contextos e em outra época, levando em consideração empresas distintas.</p>
+<p>Além dos fatores supracitados, temos outras métricas de qualidade explicitadas no <a href="https://github.com/fga-eps-mds/2023-1-Dnit-DOC/blob/main/analytics.ipynb">notebook</a> do projeto, no qual é calculado algumas métricas baseadas no framework Qrapids.</p>
+<h1 id="versionamento">Versionamento</h1>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data</th>
+<th>Modificação</th>
+<th>Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>08/07/2023</td>
+<td>Criação do documento</td>
+<td>Antônio Neto</td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>08/07/2023</td>
+<td>Adição de Custo, Risco e Qualidade</td>
+<td>Antônio Neto</td>
+</tr>
+<tr>
+<td>1.2</td>
+<td>14/07/2023</td>
+<td>Ajustes no documento com feedback do professor</td>
+<td>Antônio Neto</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+    
+  </body>
+</html>
